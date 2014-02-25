@@ -1,62 +1,233 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Shake</title>
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/csshake.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">
+	<link rel="stylesheet" type="text/css" href="css/prism.css">
+</head>
+<body>
+	<div class="main">
+		<section class="section home shamrock">
+			<div class="glass shake shake-hard freez">
+			  <i class="bubble"></i>
+			  <i class="bubble big"></i>
+			  <i class="bubble"></i>
+			  <i class="bubble big"></i>
+			  <i class="bubble small"></i>
+			  <i class="bubble"></i>
+			  <i class="bubble"></i>
+			  <i class="bubble small"></i>
+			  <i class="bubble"></i>
+			  <i class="bubble small"></i>
+			  <span class="straw"></span>
+			</div>
+			<h1>CS<span class="shake shake-delay">Shake</span></h1>
+			<h4>Some CSS classes to <span class="shake">move your DOM!</span></h4>
+			<a class="arrow shake shake-constant"></a>
+		</section>
+		<section class="section carrot">
+			<h1>Classes</h1>
+			<h4>The basic collection</h4>
+			<ul class="previews">
+				<li>
+					<i class="preview-item shake">
+						Bs
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Basic Shake</p>
+				</li>
+				<li>
+					<i class="preview-item shake shake-slow">
+						Ss
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Slow Shake</p>
+				</li>
+				<li>
+					<i class="preview-item shake shake-little">
+						Ls
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Little Shake</p>
+				</li>
+				<li>
+					<i class="preview-item shake shake-hard">
+						Hs
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Hard Shake</p>
+				</li>
+				<li>
+					<i class="preview-item shake shake-horizontal">
+						&#8644;
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Fixed Horizontal</p>
+				</li>
+				<li>
+					<i class="preview-item shake shake-vertical">
+						&#8693;
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Fixed Vertical</p>
+				</li>
+				<li>
+					<i class="preview-item shake shake-rotate">
+						&#8635;
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Fixed Rotation</p>
+				</li>
+				<li>
+					<i class="preview-item shake shake-opacity">
+						Os
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Opacity Shake</p>
+				</li>
+				<li>
+					<i class="preview-item shake shake-crazy">
+						✌
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Crazy Shake</p>
+				</li>
+				<li>
+					<i class="preview-item shake shake-constant">
+						&#8455;
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Constant Shake</p>
+				</li>
+			</ul>
+			<a class="arrow shake shake-constant"></a>
+		</section>
+		<section class="section pear">
+			<h1>Variations</h1>
+			<h4>Some things you could add...</h4>
+			<ul class="previews bigs">
+				<li>
+					<i class="preview-item big shake shake-hard freez" id="pr1">
+						&#10052;
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Freezed after Shake</p>
+				</li>
+				<li>
+					<i class="preview-item big shake shake-hard shake-constant hover-stop" id="pr2">
+						&#12169;
+						<span class="flip"></span>
+					</i>
+					<p class="preview-desc">Constant :hover stops</p>
+				</li>
+			</ul>
+			<div class="dropdown">
+				<select class="dropdown-select" id="shake-type">
+				    <option value="" disabled selected>Select a shake</option>
+				    <option value="shake-hard">Hard Shake</option>
+				    <option value="shake-slow">Slow Shake</option>
+				    <option value="shake-little">Little Shake</option>
+				    <option value="shake-horizontal">Horizopntal Shake</option>
+				    <option value="shake-vertical">Vertical Shake</option>
+				    <option value="shake-rotate">Rotate Shake</option>
+				    <option value="shake-opacity">Opacity Shake</option>
+				    <option value="shake-crazy">Crazy Shake</option>
+				</select>
+			</div>
+			<a class="arrow shake shake-constant"></a>
+		</section>
+		<section class="section code amethyst">
+			<h1>How to use</h1>
+			<h4>Realleasy, hover to test...</h4>
+			<div class="">
+				<link  type="text/css" href="css/csshake.css">
+				<pre class="language-markup shake shake-little shake-constant"><code>&lt;link type=&quot;text/css&quot; href=&quot;csshake.css&quot;&gt;</code></pre><br>
+				<pre class="language-markup shake"><code>&lt;div class=&quot;shake&quot;&gt;&lt;/div&gt;</code></pre>
+				<pre class="language-markup shake shake-hard"><code>&lt;div class=&quot;shake shake-hard&quot;&gt;&lt;/div&gt;</code></pre>
+				<pre class="language-markup shake shake-slow"><code>&lt;div class=&quot;shake shake-slow&quot;&gt;&lt;/div&gt;</code></pre>
+				<pre class="language-markup shake shake-little"><code>&lt;div class=&quot;shake shake-little&quot;&gt;&lt;/div&gt;</code></pre>
+				<pre class="language-markup shake shake-horizontal"><code>&lt;div class=&quot;shake shake-horizontal&quot;&gt;&lt;/div&gt;</code></pre>
+				<pre class="language-markup shake shake-vertical"><code>&lt;div class=&quot;shake shake-vertical&quot;&gt;&lt;/div&gt;</code></pre>
+				<pre class="language-markup shake shake-rotate"><code>&lt;div class=&quot;shake shake-rotate&quot;&gt;&lt;/div&gt;</code></pre>
+				<pre class="language-markup shake shake-opacity"><code>&lt;div class=&quot;shake shake-opacity&quot;&gt;&lt;/div&gt;</code></pre>
+				<pre class="language-markup shake shake-crazy"><code>&lt;div class=&quot;shake shake-crazy&quot;&gt;&lt;/div&gt;</code></pre>
+			</div>
+			<a class="arrow shake shake-constant"></a>
+		</section>
+		<section class="section scooter">
+			<h1>More flexibility</h1>
+			<h4>The Sass @mixins, and so on...</h4>
+			<pre>
+	<code class="language-css">@include shake($x, $y, $rot, $name, $steps, $opacity); /* _mixins.scss */ 
+	/* 	$x &amp; $y: pixels to move on the X and Y axis,
+		$rot: deg to rotate
+		$name: the name assigned to those parameters
+		$steps: adjust the animation loop (i.e 10 makes an animation in steps of 10%)
+		$opacity: true/false to add opacity animation */
+	@include shake(40px, 40px, 20deg, 'shake-crazy', 10, true); /* an example */
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Csshake : CSS classes to move your DOM!" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Csshake</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/elrumordelaluz/csshake">View on GitHub</a>
-
-          <h1 id="project_title">Csshake</h1>
-          <h2 id="project_tagline">CSS classes to move your DOM!</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/elrumordelaluz/csshake/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/elrumordelaluz/csshake/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="csshake" class="anchor" href="#csshake"><span class="octicon octicon-link"></span></a>csshake</h1>
-
-<p>CSS classes to move your DOM!</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Csshake maintained by <a href="https://github.com/elrumordelaluz">elrumordelaluz</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-48410558-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+	@include animation($name, $dur, $iter, $tim, $del); /* _shake.scss */
+	/*  $name: animation-name,
+		$dur: animation-duration,
+		$iter: animation-iteration-count,
+		$tim: animation-timing-function,
+		$del: animation-delay */
+	@include animation(shake-slow, 5s); /* an example */
+</code></pre>
+			<p>Attention: you have to use the random() function to compile Sass files. <br>You could read how to implement it <a href="https://github.com/nex3/sass/pull/968" class="shake freez">here</a> or <a href="http://blog.codepen.io/2013/09/17/adding-random-function-sass/" class="shake shake-hard freez">here</a> or <a href="http://hugogiraudel.com/2013/10/17/sass-random/" class="shake shake-rotate freez">here</a> mucho more information.<br>
+				Remember that there isn't prefixes on the main code. Hoping that one day we won't need it.</p>
+			<a class="btn amethyst shake shake-constant hover-stop" href="css/csshake.min.css">Download</a>
+			<small>csshake.mis.css</small>
+			<a class="arrow shake shake-constant"></a>
+		</section>
+		<section class="section dolly dark-txt">
+			<h1>Last words</h1>
+			<h4>The about, the idea, and the desire to hear you to improve the whole code...</h4>
+			<p>I had to do a shake-animation for a big project. I did it in vanilla CSS at the begining.<br>After finish it I discover <a class="shake shake-constant shake-little" href="http://jackrugile.com/jrumble/">this</a> cool jQuery plugin by <a class="shake" href="https://twitter.com/jackrugile">@jackrugile</a><br> Then I started to think in made <span class="shake shake-little shake-constant">this little CSS project</span>.</p>
+			<a class="btn carrot shake shake-constant hover-stop" href="css/csshake.min.css">Download</a>
+			<small>csshake.mis.css</small>
+			<a class="btn light shake" href="http://github.com/elrumordelaluz">Fork me on Github</a>
+			<footer>Made with &#9829; by <a class="shake shake-constant hover-stop" href="http://twitter.com/elrumordelaluz">@elrumordelaluz</a>, using <a href="http://sass-lang.com/">Sass</a>.<br>In this site I used <a href="http://leaverou.github.io/prefixfree/">prefixfree</a> and <a href="http://prismjs.com/">Prism.js</a> both by <a href="http://twitter.com/LeaVerou">Lea Verou</a> and <a href="https://github.com/peachananr/onepage-scroll">One page scroll</a> plugin by <a href="https://twitter.com/peachananr">@peachananr</a> </footer>
+		</section>
+	</div>
 
 
-  </body>
+	<!-- prefixfree yeah! from here: http://leaverou.github.io/prefixfree/ -->
+	<script type="text/javascript" src="js/prefixfree.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.min.js"></script>
+	<script type="text/javascript" src="js/prism.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".main").onepage_scroll({
+			   sectionContainer: "section",
+			   easing: "ease",
+			   animationTime: 1000,
+			   pagination: true,
+			   updateURL: false,  
+			   beforeMove: function(index) {},
+			   afterMove: function(index) {},
+			   loop: false,
+			   keyboard: true,        
+			   responsiveFallback: false
+			});
+			$('.arrow').click(function(){
+				$(".main").moveDown();
+			})
+			$('#shake-type').change(function(){
+				var newShake = $(this).val();
+				var regex = /(\s)*(shake-.*?)(?=\s)/g; 
+				$('#pr1, #pr2').removeClass('shake-hard shake-slow shake-little shake-horizontal shake-vertical shake-rotate shake-opacity shake-crazy').addClass(newShake);
+			})
+
+		}) // Ready
+
+		
+	</script>
+</body>
 </html>
