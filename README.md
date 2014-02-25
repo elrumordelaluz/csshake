@@ -49,3 +49,11 @@ where <code>$name</code>: animation-name,
 <p>for example:
 <pre>@include animation(shake-slow, 5s);</pre>
 </p>
+
+=======
+
+<p>Attention: you have to use the <strong>random()</strong> function to compile Sass files. <br>You could read how to implement it <a href="https://github.com/nex3/sass/pull/968" class="shake freez">here</a> or <a href="http://blog.codepen.io/2013/09/17/adding-random-function-sass/" class="shake shake-hard freez">here</a> or <a href="http://hugogiraudel.com/2013/10/17/sass-random/" class="shake shake-rotate freez">here</a> mucho more information.</p>
+<p>And remember that there isn't <strong>-prefixes</strong> on the main code. Hoping that one day we won't need it.<br>In the <a href="http://elrumordelaluz.github.io/csshake/">demo page</a> I use the magic <a href="http://leaverou.github.io/prefixfree/">prefixfree</a></p>
+
+
+<footer>Made with ♥ by <a class="shake shake-constant hover-stop" href="http://twitter.com/elrumordelaluz">@elrumordelaluz</a>, using <a href="http://sass-lang.com/">Sass</a>.<br>In the <a href="http://elrumordelaluz.github.io/csshake/">Demo page</a> I used <a href="http://leaverou.github.io/prefixfree/">prefixfree</a> and <a href="http://prismjs.com/">Prism.js</a> both by <a href="http://twitter.com/LeaVerou">Lea Verou</a> and <a href="https://github.com/peachananr/onepage-scroll">One page scroll</a> plugin by <a href="https://twitter.com/peachananr">@peachananr</a> </footer>
