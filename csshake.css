@@ -240,17 +240,17 @@
 
   /* line 26, ../sass/_mixins.scss */
   2% {
-    transform: translate(-0.5px, 1.5px) rotate(-0.5deg);
+    transform: translate(0.5px, -0.5px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   4% {
-    transform: translate(-1.5px, -1.5px) rotate(-1.5deg);
+    transform: translate(-0.5px, -2.5px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   6% {
-    transform: translate(0.5px, -0.5px) rotate(0.5deg);
+    transform: translate(0.5px, -0.5px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -260,227 +260,227 @@
 
   /* line 26, ../sass/_mixins.scss */
   10% {
-    transform: translate(-0.5px, -0.5px) rotate(-1.5deg);
+    transform: translate(-1.5px, -1.5px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   12% {
-    transform: translate(0.5px, -0.5px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  14% {
-    transform: translate(-2.5px, -0.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  16% {
-    transform: translate(0.5px, -0.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  18% {
-    transform: translate(-1.5px, 1.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  20% {
-    transform: translate(-0.5px, -1.5px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  22% {
-    transform: translate(0.5px, -1.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  24% {
-    transform: translate(1.5px, 0.5px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  26% {
-    transform: translate(-0.5px, 1.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  28% {
-    transform: translate(-1.5px, 1.5px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  30% {
-    transform: translate(1.5px, -1.5px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  32% {
-    transform: translate(1.5px, -2.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  34% {
-    transform: translate(1.5px, 1.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  36% {
-    transform: translate(-2.5px, -1.5px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  38% {
-    transform: translate(-1.5px, 1.5px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  40% {
-    transform: translate(-0.5px, -1.5px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  42% {
-    transform: translate(1.5px, 0.5px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  44% {
-    transform: translate(-0.5px, -2.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  46% {
-    transform: translate(-2.5px, 0.5px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  48% {
-    transform: translate(0.5px, -2.5px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  50% {
-    transform: translate(0.5px, -2.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  52% {
-    transform: translate(-2.5px, -2.5px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  54% {
-    transform: translate(-1.5px, -2.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  56% {
-    transform: translate(-2.5px, 1.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  58% {
-    transform: translate(-1.5px, -2.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  60% {
-    transform: translate(-2.5px, -2.5px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  62% {
-    transform: translate(-1.5px, 1.5px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  64% {
-    transform: translate(-0.5px, 1.5px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  66% {
-    transform: translate(-0.5px, 1.5px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  68% {
-    transform: translate(-2.5px, -1.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  70% {
-    transform: translate(1.5px, -2.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  72% {
-    transform: translate(-1.5px, -0.5px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  74% {
-    transform: translate(-0.5px, 1.5px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  76% {
-    transform: translate(1.5px, 1.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  78% {
-    transform: translate(1.5px, -1.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  80% {
-    transform: translate(0.5px, -1.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  82% {
-    transform: translate(-1.5px, 1.5px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  84% {
-    transform: translate(1.5px, -0.5px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  86% {
     transform: translate(1.5px, 0.5px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  88% {
-    transform: translate(-2.5px, -2.5px) rotate(-0.5deg);
+  14% {
+    transform: translate(1.5px, -2.5px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  90% {
-    transform: translate(-0.5px, 1.5px) rotate(0.5deg);
+  16% {
+    transform: translate(-2.5px, -1.5px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  92% {
-    transform: translate(-1.5px, 1.5px) rotate(-0.5deg);
+  18% {
+    transform: translate(-0.5px, 0.5px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  94% {
+  20% {
+    transform: translate(-1.5px, 1.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  22% {
+    transform: translate(-1.5px, -2.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  24% {
+    transform: translate(0.5px, 0.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  26% {
+    transform: translate(-1.5px, 1.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  28% {
+    transform: translate(0.5px, 1.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  30% {
+    transform: translate(-0.5px, -1.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  32% {
+    transform: translate(-2.5px, 1.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  34% {
+    transform: translate(-1.5px, 1.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  36% {
+    transform: translate(-2.5px, -0.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  38% {
+    transform: translate(-2.5px, -2.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  40% {
+    transform: translate(-0.5px, -0.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  42% {
+    transform: translate(-1.5px, 1.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  44% {
+    transform: translate(0.5px, 1.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  46% {
+    transform: translate(1.5px, 1.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  48% {
     transform: translate(-2.5px, 1.5px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  96% {
+  50% {
+    transform: translate(0.5px, 1.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  52% {
     transform: translate(-1.5px, -2.5px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  54% {
+    transform: translate(1.5px, -1.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  56% {
+    transform: translate(1.5px, 0.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  58% {
+    transform: translate(-2.5px, 1.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  60% {
+    transform: translate(0.5px, 0.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  62% {
+    transform: translate(-2.5px, -1.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  64% {
+    transform: translate(0.5px, 0.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  66% {
+    transform: translate(1.5px, -0.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  68% {
+    transform: translate(0.5px, 1.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  70% {
+    transform: translate(-1.5px, -2.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  72% {
+    transform: translate(-1.5px, 0.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  74% {
+    transform: translate(0.5px, -0.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  76% {
+    transform: translate(1.5px, -0.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  78% {
+    transform: translate(-1.5px, 1.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  80% {
+    transform: translate(-0.5px, -1.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  82% {
+    transform: translate(1.5px, -1.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  84% {
+    transform: translate(0.5px, 1.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  86% {
+    transform: translate(0.5px, -0.5px) rotate(0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  88% {
+    transform: translate(-2.5px, 1.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  90% {
+    transform: translate(-1.5px, -0.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  92% {
+    transform: translate(0.5px, 1.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  94% {
+    transform: translate(0.5px, 1.5px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  96% {
+    transform: translate(-1.5px, 1.5px) rotate(-1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   98% {
-    transform: translate(1.5px, 1.5px) rotate(-0.5deg);
+    transform: translate(0.5px, -0.5px) rotate(-0.5deg);
   }
 }
 
@@ -492,7 +492,7 @@
 
   /* line 26, ../sass/_mixins.scss */
   2% {
-    transform: translate(0px, -1px) rotate(-0.5deg);
+    transform: translate(-1px, -1px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -502,12 +502,12 @@
 
   /* line 26, ../sass/_mixins.scss */
   6% {
-    transform: translate(0px, -1px) rotate(-0.5deg);
+    transform: translate(0px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   8% {
-    transform: translate(0px, -1px) rotate(-0.5deg);
+    transform: translate(-1px, -1px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -517,17 +517,17 @@
 
   /* line 26, ../sass/_mixins.scss */
   12% {
-    transform: translate(-1px, -1px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  14% {
     transform: translate(-1px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  14% {
+    transform: translate(0px, 0px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   16% {
-    transform: translate(0px, -1px) rotate(-0.5deg);
+    transform: translate(0px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -542,7 +542,7 @@
 
   /* line 26, ../sass/_mixins.scss */
   22% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
+    transform: translate(-1px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -552,17 +552,17 @@
 
   /* line 26, ../sass/_mixins.scss */
   26% {
-    transform: translate(-1px, 0px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  28% {
     transform: translate(0px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  30% {
+  28% {
     transform: translate(-1px, -1px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  30% {
+    transform: translate(0px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -572,17 +572,17 @@
 
   /* line 26, ../sass/_mixins.scss */
   34% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  36% {
     transform: translate(0px, -1px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  38% {
+  36% {
     transform: translate(-1px, 0px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  38% {
+    transform: translate(-1px, -1px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -597,17 +597,17 @@
 
   /* line 26, ../sass/_mixins.scss */
   44% {
-    transform: translate(-1px, -1px) rotate(-0.5deg);
+    transform: translate(-1px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   46% {
-    transform: translate(0px, -1px) rotate(-0.5deg);
+    transform: translate(-1px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   48% {
-    transform: translate(0px, -1px) rotate(-0.5deg);
+    transform: translate(-1px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -617,7 +617,7 @@
 
   /* line 26, ../sass/_mixins.scss */
   52% {
-    transform: translate(-1px, -1px) rotate(-0.5deg);
+    transform: translate(0px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -627,7 +627,7 @@
 
   /* line 26, ../sass/_mixins.scss */
   56% {
-    transform: translate(0px, -1px) rotate(-0.5deg);
+    transform: translate(-1px, -1px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -637,42 +637,42 @@
 
   /* line 26, ../sass/_mixins.scss */
   60% {
-    transform: translate(-1px, -1px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  62% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  64% {
-    transform: translate(-1px, 0px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  66% {
-    transform: translate(-1px, -1px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  68% {
     transform: translate(0px, -1px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  70% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  72% {
+  62% {
     transform: translate(-1px, -1px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  64% {
+    transform: translate(0px, -1px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  66% {
+    transform: translate(0px, -1px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  68% {
+    transform: translate(-1px, 0px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  70% {
+    transform: translate(0px, -1px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  72% {
+    transform: translate(0px, -1px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   74% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
+    transform: translate(-1px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -687,7 +687,7 @@
 
   /* line 26, ../sass/_mixins.scss */
   80% {
-    transform: translate(0px, -1px) rotate(-0.5deg);
+    transform: translate(0px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -697,42 +697,42 @@
 
   /* line 26, ../sass/_mixins.scss */
   84% {
-    transform: translate(0px, -1px) rotate(-0.5deg);
+    transform: translate(0px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   86% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  88% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  90% {
-    transform: translate(-1px, -1px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  92% {
-    transform: translate(-1px, -1px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  94% {
     transform: translate(0px, -1px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  96% {
+  88% {
     transform: translate(-1px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  98% {
+  90% {
+    transform: translate(0px, 0px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  92% {
     transform: translate(-1px, 0px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  94% {
+    transform: translate(-1px, -1px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  96% {
+    transform: translate(-1px, -1px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  98% {
+    transform: translate(-1px, -1px) rotate(-0.5deg);
   }
 }
 
@@ -744,247 +744,247 @@
 
   /* line 26, ../sass/_mixins.scss */
   2% {
-    transform: translate(2px, -6px) rotate(1.5deg);
+    transform: translate(4px, -4px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   4% {
-    transform: translate(1px, -5px) rotate(0.5deg);
+    transform: translate(8px, -3px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   6% {
-    transform: translate(9px, 4px) rotate(1.5deg);
+    transform: translate(-7px, 3px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   8% {
-    transform: translate(4px, 2px) rotate(1.5deg);
+    transform: translate(3px, -5px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   10% {
-    transform: translate(-10px, -4px) rotate(-2.5deg);
+    transform: translate(6px, -2px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   12% {
-    transform: translate(9px, 5px) rotate(-3.5deg);
+    transform: translate(9px, 7px) rotate(-2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   14% {
-    transform: translate(-8px, 9px) rotate(-3.5deg);
+    transform: translate(-8px, -4px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   16% {
-    transform: translate(5px, 1px) rotate(0.5deg);
+    transform: translate(-1px, 3px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   18% {
-    transform: translate(-7px, 7px) rotate(1.5deg);
+    transform: translate(-7px, -4px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   20% {
-    transform: translate(-2px, 3px) rotate(2.5deg);
+    transform: translate(9px, -8px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   22% {
-    transform: translate(-5px, 5px) rotate(-2.5deg);
+    transform: translate(-3px, -3px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   24% {
-    transform: translate(-4px, 7px) rotate(2.5deg);
+    transform: translate(-5px, -4px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   26% {
-    transform: translate(2px, 4px) rotate(-0.5deg);
+    transform: translate(7px, 7px) rotate(-2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   28% {
-    transform: translate(-9px, -4px) rotate(2.5deg);
+    transform: translate(-4px, 3px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   30% {
-    transform: translate(-6px, -1px) rotate(-3.5deg);
+    transform: translate(0px, 1px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   32% {
-    transform: translate(0px, 0px) rotate(-2.5deg);
+    transform: translate(-8px, 5px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   34% {
-    transform: translate(-1px, -9px) rotate(-1.5deg);
+    transform: translate(-6px, 2px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   36% {
-    transform: translate(7px, -1px) rotate(-0.5deg);
+    transform: translate(-1px, 5px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   38% {
-    transform: translate(5px, -6px) rotate(-0.5deg);
+    transform: translate(-10px, 1px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   40% {
-    transform: translate(1px, 9px) rotate(-2.5deg);
+    transform: translate(-2px, 1px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   42% {
-    transform: translate(0px, 0px) rotate(0.5deg);
+    transform: translate(-4px, -8px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   44% {
-    transform: translate(-6px, 6px) rotate(1.5deg);
+    transform: translate(0px, 6px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   46% {
-    transform: translate(-1px, -9px) rotate(-3.5deg);
+    transform: translate(8px, 3px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   48% {
-    transform: translate(-2px, -5px) rotate(2.5deg);
+    transform: translate(-6px, 9px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   50% {
-    transform: translate(-5px, 4px) rotate(-3.5deg);
+    transform: translate(-7px, 9px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   52% {
-    transform: translate(-8px, -7px) rotate(-0.5deg);
+    transform: translate(8px, 4px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   54% {
-    transform: translate(4px, 7px) rotate(2.5deg);
+    transform: translate(0px, -5px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   56% {
-    transform: translate(5px, -8px) rotate(2.5deg);
+    transform: translate(-5px, -10px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   58% {
-    transform: translate(5px, -3px) rotate(2.5deg);
+    transform: translate(-8px, 4px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   60% {
-    transform: translate(5px, 5px) rotate(-3.5deg);
+    transform: translate(-8px, -2px) rotate(-2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   62% {
-    transform: translate(-10px, -7px) rotate(2.5deg);
+    transform: translate(-4px, -8px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   64% {
-    transform: translate(-3px, -4px) rotate(0.5deg);
+    transform: translate(3px, 8px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   66% {
-    transform: translate(7px, 7px) rotate(2.5deg);
+    transform: translate(4px, -1px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   68% {
-    transform: translate(-5px, -6px) rotate(-3.5deg);
+    transform: translate(0px, 2px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   70% {
-    transform: translate(-4px, 9px) rotate(1.5deg);
+    transform: translate(7px, 7px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   72% {
-    transform: translate(3px, 0px) rotate(2.5deg);
+    transform: translate(-10px, 7px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   74% {
-    transform: translate(-6px, -5px) rotate(-1.5deg);
+    transform: translate(-1px, -10px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   76% {
-    transform: translate(8px, 5px) rotate(1.5deg);
+    transform: translate(8px, 4px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   78% {
-    transform: translate(-1px, 8px) rotate(-2.5deg);
+    transform: translate(-10px, 2px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   80% {
-    transform: translate(-4px, -1px) rotate(1.5deg);
+    transform: translate(5px, -5px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   82% {
-    transform: translate(6px, 7px) rotate(-3.5deg);
+    transform: translate(6px, -6px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   84% {
-    transform: translate(5px, -2px) rotate(-2.5deg);
+    transform: translate(6px, 4px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   86% {
-    transform: translate(-9px, 4px) rotate(-0.5deg);
+    transform: translate(0px, -9px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   88% {
-    transform: translate(7px, 5px) rotate(-2.5deg);
+    transform: translate(-3px, -7px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   90% {
-    transform: translate(-7px, 0px) rotate(-0.5deg);
+    transform: translate(-5px, -6px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   92% {
-    transform: translate(4px, -10px) rotate(-3.5deg);
+    transform: translate(-7px, 8px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   94% {
-    transform: translate(-2px, -1px) rotate(-1.5deg);
+    transform: translate(7px, -3px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   96% {
-    transform: translate(-2px, -2px) rotate(-0.5deg);
+    transform: translate(-2px, 1px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   98% {
-    transform: translate(1px, -4px) rotate(1.5deg);
+    transform: translate(4px, 3px) rotate(0.5deg);
   }
 }
 
@@ -996,247 +996,247 @@
 
   /* line 26, ../sass/_mixins.scss */
   2% {
-    transform: translate(1px, -5px) rotate(-2.5deg);
+    transform: translate(8px, 9px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   4% {
-    transform: translate(0px, -5px) rotate(2.5deg);
+    transform: translate(-5px, 6px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   6% {
-    transform: translate(4px, -1px) rotate(-1.5deg);
+    transform: translate(-4px, -4px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   8% {
-    transform: translate(-3px, 4px) rotate(-3.5deg);
+    transform: translate(-4px, -3px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   10% {
-    transform: translate(4px, -3px) rotate(-2.5deg);
+    transform: translate(-6px, 7px) rotate(-2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   12% {
-    transform: translate(-3px, 4px) rotate(-3.5deg);
+    transform: translate(5px, -1px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   14% {
-    transform: translate(5px, 9px) rotate(0.5deg);
+    transform: translate(8px, -6px) rotate(-2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   16% {
-    transform: translate(1px, -9px) rotate(-2.5deg);
+    transform: translate(-9px, 4px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   18% {
-    transform: translate(-4px, 8px) rotate(-2.5deg);
+    transform: translate(6px, -5px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   20% {
-    transform: translate(-9px, -10px) rotate(-3.5deg);
+    transform: translate(1px, 0px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   22% {
-    transform: translate(-8px, -1px) rotate(0.5deg);
+    transform: translate(-4px, 9px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   24% {
-    transform: translate(7px, 5px) rotate(-2.5deg);
+    transform: translate(0px, 4px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   26% {
-    transform: translate(8px, -6px) rotate(2.5deg);
+    transform: translate(-6px, 7px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   28% {
-    transform: translate(1px, -1px) rotate(0.5deg);
+    transform: translate(-1px, -7px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   30% {
-    transform: translate(-6px, -9px) rotate(-3.5deg);
+    transform: translate(-5px, -7px) rotate(-2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   32% {
-    transform: translate(7px, 9px) rotate(-2.5deg);
+    transform: translate(4px, -7px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   34% {
-    transform: translate(-1px, 9px) rotate(-3.5deg);
+    transform: translate(4px, -6px) rotate(-2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   36% {
-    transform: translate(-7px, 9px) rotate(1.5deg);
+    transform: translate(-4px, 0px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   38% {
-    transform: translate(-9px, -6px) rotate(-2.5deg);
+    transform: translate(9px, 5px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   40% {
-    transform: translate(-5px, -3px) rotate(-2.5deg);
+    transform: translate(5px, -7px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   42% {
-    transform: translate(6px, 0px) rotate(-1.5deg);
+    transform: translate(6px, -6px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   44% {
-    transform: translate(-4px, -3px) rotate(0.5deg);
+    transform: translate(0px, -4px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   46% {
-    transform: translate(4px, 4px) rotate(1.5deg);
+    transform: translate(1px, 5px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   48% {
-    transform: translate(-8px, 5px) rotate(-3.5deg);
+    transform: translate(9px, -4px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   50% {
-    transform: translate(2px, 8px) rotate(-1.5deg);
+    transform: translate(9px, 1px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   52% {
-    transform: translate(-7px, -10px) rotate(0.5deg);
+    transform: translate(0px, -5px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   54% {
-    transform: translate(-3px, 3px) rotate(-2.5deg);
+    transform: translate(5px, -4px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   56% {
-    transform: translate(-4px, -9px) rotate(1.5deg);
+    transform: translate(-2px, 3px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   58% {
-    transform: translate(2px, -5px) rotate(-2.5deg);
+    transform: translate(-4px, 9px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   60% {
-    transform: translate(-8px, 1px) rotate(-2.5deg);
+    transform: translate(8px, 5px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   62% {
-    transform: translate(-4px, 9px) rotate(-1.5deg);
+    transform: translate(-6px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   64% {
-    transform: translate(6px, 5px) rotate(-2.5deg);
+    transform: translate(-7px, -7px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   66% {
-    transform: translate(-5px, 9px) rotate(-1.5deg);
+    transform: translate(-5px, 7px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   68% {
-    transform: translate(9px, -1px) rotate(0.5deg);
+    transform: translate(-10px, 7px) rotate(1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   70% {
-    transform: translate(0px, -10px) rotate(1.5deg);
+    transform: translate(0px, -2px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   72% {
-    transform: translate(2px, 5px) rotate(-1.5deg);
+    transform: translate(4px, -9px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   74% {
-    transform: translate(1px, 5px) rotate(1.5deg);
+    transform: translate(4px, -10px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   76% {
-    transform: translate(0px, -7px) rotate(-0.5deg);
+    transform: translate(-1px, -1px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   78% {
-    transform: translate(2px, -2px) rotate(2.5deg);
+    transform: translate(2px, -6px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   80% {
-    transform: translate(-6px, -2px) rotate(-1.5deg);
+    transform: translate(-6px, -6px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   82% {
-    transform: translate(-3px, -4px) rotate(-1.5deg);
+    transform: translate(5px, 9px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   84% {
-    transform: translate(-3px, 0px) rotate(1.5deg);
+    transform: translate(2px, 5px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   86% {
-    transform: translate(7px, 3px) rotate(-1.5deg);
+    transform: translate(-2px, 3px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   88% {
-    transform: translate(3px, 3px) rotate(-3.5deg);
+    transform: translate(5px, 8px) rotate(0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   90% {
-    transform: translate(8px, -8px) rotate(-0.5deg);
+    transform: translate(0px, 4px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   92% {
-    transform: translate(-4px, 3px) rotate(-0.5deg);
+    transform: translate(6px, 3px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   94% {
-    transform: translate(7px, -2px) rotate(2.5deg);
+    transform: translate(-3px, 1px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   96% {
-    transform: translate(2px, -7px) rotate(1.5deg);
+    transform: translate(-5px, -8px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   98% {
-    transform: translate(8px, -8px) rotate(-2.5deg);
+    transform: translate(4px, -10px) rotate(-0.5deg);
   }
 }
 
@@ -1248,97 +1248,97 @@
 
   /* line 26, ../sass/_mixins.scss */
   2% {
-    transform: translate(4px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  4% {
     transform: translate(-10px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  4% {
+    transform: translate(-1px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   6% {
-    transform: translate(4px, 0px) rotate(0deg);
+    transform: translate(-3px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   8% {
-    transform: translate(5px, 0px) rotate(0deg);
+    transform: translate(-6px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   10% {
-    transform: translate(-6px, 0px) rotate(0deg);
+    transform: translate(-8px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   12% {
-    transform: translate(2px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  14% {
-    transform: translate(-7px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  16% {
-    transform: translate(-3px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  18% {
-    transform: translate(-5px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  20% {
     transform: translate(-6px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  22% {
-    transform: translate(4px, 0px) rotate(0deg);
+  14% {
+    transform: translate(3px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  24% {
-    transform: translate(8px, 0px) rotate(0deg);
+  16% {
+    transform: translate(3px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  26% {
-    transform: translate(9px, 0px) rotate(0deg);
+  18% {
+    transform: translate(-8px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  28% {
-    transform: translate(-3px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  30% {
+  20% {
     transform: translate(-7px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  22% {
+    transform: translate(-8px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  24% {
+    transform: translate(1px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  26% {
+    transform: translate(-8px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  28% {
+    transform: translate(-5px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  30% {
+    transform: translate(2px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   32% {
-    transform: translate(7px, 0px) rotate(0deg);
+    transform: translate(-2px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   34% {
-    transform: translate(4px, 0px) rotate(0deg);
+    transform: translate(-6px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   36% {
-    transform: translate(6px, 0px) rotate(0deg);
+    transform: translate(-3px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   38% {
-    transform: translate(9px, 0px) rotate(0deg);
+    transform: translate(-1px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -1348,7 +1348,7 @@
 
   /* line 26, ../sass/_mixins.scss */
   42% {
-    transform: translate(-5px, 0px) rotate(0deg);
+    transform: translate(3px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -1358,137 +1358,137 @@
 
   /* line 26, ../sass/_mixins.scss */
   46% {
-    transform: translate(3px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  48% {
-    transform: translate(-4px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  50% {
-    transform: translate(3px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  52% {
-    transform: translate(1px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  54% {
-    transform: translate(-4px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  56% {
     transform: translate(9px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  58% {
+  48% {
+    transform: translate(-9px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  50% {
+    transform: translate(-9px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  52% {
     transform: translate(-6px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  54% {
+    transform: translate(-7px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  56% {
+    transform: translate(-9px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  58% {
+    transform: translate(1px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   60% {
-    transform: translate(-6px, 0px) rotate(0deg);
+    transform: translate(6px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   62% {
-    transform: translate(6px, 0px) rotate(0deg);
+    transform: translate(-9px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   64% {
-    transform: translate(8px, 0px) rotate(0deg);
+    transform: translate(2px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   66% {
-    transform: translate(-9px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  68% {
-    transform: translate(-3px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  70% {
-    transform: translate(-6px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  72% {
-    transform: translate(7px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  74% {
-    transform: translate(-5px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  76% {
-    transform: translate(-9px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  78% {
-    transform: translate(-6px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  80% {
-    transform: translate(-1px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  82% {
-    transform: translate(8px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  84% {
-    transform: translate(-5px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  86% {
-    transform: translate(6px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  88% {
     transform: translate(-4px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  90% {
-    transform: translate(-1px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  92% {
-    transform: translate(5px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  94% {
-    transform: translate(8px, 0px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  96% {
+  68% {
     transform: translate(-10px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
-  98% {
+  70% {
+    transform: translate(2px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  72% {
+    transform: translate(2px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  74% {
+    transform: translate(6px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  76% {
+    transform: translate(-3px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  78% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  80% {
+    transform: translate(6px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  82% {
+    transform: translate(-6px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  84% {
+    transform: translate(9px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  86% {
+    transform: translate(-8px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  88% {
+    transform: translate(1px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  90% {
+    transform: translate(1px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  92% {
     transform: translate(7px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  94% {
+    transform: translate(3px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  96% {
+    transform: translate(3px, 0px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  98% {
+    transform: translate(-7px, 0px) rotate(0deg);
   }
 }
 
@@ -1500,87 +1500,87 @@
 
   /* line 26, ../sass/_mixins.scss */
   2% {
-    transform: translate(0px, -1px) rotate(0deg);
+    transform: translate(0px, -9px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   4% {
-    transform: translate(0px, -4px) rotate(0deg);
+    transform: translate(0px, -1px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   6% {
-    transform: translate(0px, 6px) rotate(0deg);
+    transform: translate(0px, -3px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   8% {
-    transform: translate(0px, 2px) rotate(0deg);
+    transform: translate(0px, -7px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   10% {
-    transform: translate(0px, 5px) rotate(0deg);
+    transform: translate(0px, 7px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   12% {
-    transform: translate(0px, 4px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  14% {
-    transform: translate(0px, 9px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  16% {
-    transform: translate(0px, 7px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  18% {
-    transform: translate(0px, 4px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  20% {
     transform: translate(0px, -5px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  14% {
+    transform: translate(0px, -10px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  16% {
+    transform: translate(0px, 3px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  18% {
+    transform: translate(0px, -3px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  20% {
+    transform: translate(0px, 2px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   22% {
-    transform: translate(0px, 7px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   24% {
-    transform: translate(0px, 4px) rotate(0deg);
+    transform: translate(0px, -9px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   26% {
-    transform: translate(0px, 3px) rotate(0deg);
+    transform: translate(0px, 1px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   28% {
-    transform: translate(0px, -1px) rotate(0deg);
+    transform: translate(0px, -4px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   30% {
-    transform: translate(0px, -1px) rotate(0deg);
+    transform: translate(0px, -10px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   32% {
-    transform: translate(0px, 3px) rotate(0deg);
+    transform: translate(0px, -9px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   34% {
-    transform: translate(0px, -10px) rotate(0deg);
+    transform: translate(0px, -6px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -1590,47 +1590,47 @@
 
   /* line 26, ../sass/_mixins.scss */
   38% {
-    transform: translate(0px, 6px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  40% {
-    transform: translate(0px, 9px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  42% {
     transform: translate(0px, -1px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  40% {
+    transform: translate(0px, -4px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  42% {
+    transform: translate(0px, -5px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   44% {
-    transform: translate(0px, 1px) rotate(0deg);
+    transform: translate(0px, -8px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   46% {
-    transform: translate(0px, 8px) rotate(0deg);
+    transform: translate(0px, -8px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   48% {
-    transform: translate(0px, -9px) rotate(0deg);
+    transform: translate(0px, -3px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   50% {
-    transform: translate(0px, 1px) rotate(0deg);
+    transform: translate(0px, -8px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   52% {
-    transform: translate(0px, 4px) rotate(0deg);
+    transform: translate(0px, 7px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   54% {
-    transform: translate(0px, -4px) rotate(0deg);
+    transform: translate(0px, 6px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -1640,42 +1640,42 @@
 
   /* line 26, ../sass/_mixins.scss */
   58% {
-    transform: translate(0px, 3px) rotate(0deg);
+    transform: translate(0px, 4px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   60% {
-    transform: translate(0px, 6px) rotate(0deg);
+    transform: translate(0px, 9px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   62% {
-    transform: translate(0px, -5px) rotate(0deg);
+    transform: translate(0px, 6px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   64% {
-    transform: translate(0px, -2px) rotate(0deg);
+    transform: translate(0px, 9px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   66% {
-    transform: translate(0px, -5px) rotate(0deg);
+    transform: translate(0px, -9px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   68% {
-    transform: translate(0px, -3px) rotate(0deg);
+    transform: translate(0px, -6px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   70% {
-    transform: translate(0px, -2px) rotate(0deg);
+    transform: translate(0px, -6px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   72% {
-    transform: translate(0px, 5px) rotate(0deg);
+    transform: translate(0px, -8px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -1685,27 +1685,27 @@
 
   /* line 26, ../sass/_mixins.scss */
   76% {
-    transform: translate(0px, -6px) rotate(0deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  78% {
     transform: translate(0px, -4px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  78% {
+    transform: translate(0px, 3px) rotate(0deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   80% {
-    transform: translate(0px, -10px) rotate(0deg);
+    transform: translate(0px, -3px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   82% {
-    transform: translate(0px, -6px) rotate(0deg);
+    transform: translate(0px, -2px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   84% {
-    transform: translate(0px, -2px) rotate(0deg);
+    transform: translate(0px, 8px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -1715,32 +1715,32 @@
 
   /* line 26, ../sass/_mixins.scss */
   88% {
-    transform: translate(0px, -7px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   90% {
-    transform: translate(0px, 2px) rotate(0deg);
+    transform: translate(0px, 1px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   92% {
-    transform: translate(0px, 5px) rotate(0deg);
+    transform: translate(0px, 7px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   94% {
-    transform: translate(0px, 6px) rotate(0deg);
+    transform: translate(0px, -6px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   96% {
-    transform: translate(0px, -2px) rotate(0deg);
+    transform: translate(0px, -9px) rotate(0deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   98% {
-    transform: translate(0px, 6px) rotate(0deg);
+    transform: translate(0px, -8px) rotate(0deg);
   }
 }
 
@@ -1752,67 +1752,67 @@
 
   /* line 26, ../sass/_mixins.scss */
   2% {
-    transform: translate(0px, 0px) rotate(3.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  4% {
     transform: translate(0px, 0px) rotate(6.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  4% {
+    transform: translate(0px, 0px) rotate(-6.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   6% {
-    transform: translate(0px, 0px) rotate(1.5deg);
+    transform: translate(0px, 0px) rotate(3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   8% {
-    transform: translate(0px, 0px) rotate(-2.5deg);
+    transform: translate(0px, 0px) rotate(-5.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   10% {
-    transform: translate(0px, 0px) rotate(2.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  12% {
     transform: translate(0px, 0px) rotate(4.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  12% {
+    transform: translate(0px, 0px) rotate(-4.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   14% {
-    transform: translate(0px, 0px) rotate(3.5deg);
+    transform: translate(0px, 0px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   16% {
-    transform: translate(0px, 0px) rotate(3.5deg);
+    transform: translate(0px, 0px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   18% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
+    transform: translate(0px, 0px) rotate(-6.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   20% {
-    transform: translate(0px, 0px) rotate(1.5deg);
+    transform: translate(0px, 0px) rotate(-6.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   22% {
-    transform: translate(0px, 0px) rotate(-5.5deg);
+    transform: translate(0px, 0px) rotate(6.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   24% {
-    transform: translate(0px, 0px) rotate(-5.5deg);
+    transform: translate(0px, 0px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   26% {
-    transform: translate(0px, 0px) rotate(-3.5deg);
+    transform: translate(0px, 0px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -1822,32 +1822,32 @@
 
   /* line 26, ../sass/_mixins.scss */
   30% {
-    transform: translate(0px, 0px) rotate(-1.5deg);
+    transform: translate(0px, 0px) rotate(-6.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   32% {
-    transform: translate(0px, 0px) rotate(0.5deg);
+    transform: translate(0px, 0px) rotate(-5.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   34% {
-    transform: translate(0px, 0px) rotate(-7.5deg);
+    transform: translate(0px, 0px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   36% {
-    transform: translate(0px, 0px) rotate(5.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  38% {
     transform: translate(0px, 0px) rotate(-4.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  38% {
+    transform: translate(0px, 0px) rotate(-0.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   40% {
-    transform: translate(0px, 0px) rotate(4.5deg);
+    transform: translate(0px, 0px) rotate(6.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -1857,127 +1857,127 @@
 
   /* line 26, ../sass/_mixins.scss */
   44% {
-    transform: translate(0px, 0px) rotate(3.5deg);
+    transform: translate(0px, 0px) rotate(-3.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   46% {
-    transform: translate(0px, 0px) rotate(3.5deg);
+    transform: translate(0px, 0px) rotate(-0.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   48% {
-    transform: translate(0px, 0px) rotate(-1.5deg);
+    transform: translate(0px, 0px) rotate(-6.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   50% {
-    transform: translate(0px, 0px) rotate(1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  52% {
-    transform: translate(0px, 0px) rotate(-6.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  54% {
-    transform: translate(0px, 0px) rotate(3.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  56% {
-    transform: translate(0px, 0px) rotate(-2.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  58% {
-    transform: translate(0px, 0px) rotate(0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  60% {
-    transform: translate(0px, 0px) rotate(-2.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  62% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  64% {
-    transform: translate(0px, 0px) rotate(-6.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  66% {
-    transform: translate(0px, 0px) rotate(-4.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  68% {
-    transform: translate(0px, 0px) rotate(-1.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  70% {
-    transform: translate(0px, 0px) rotate(-7.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  72% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  74% {
-    transform: translate(0px, 0px) rotate(-0.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  76% {
-    transform: translate(0px, 0px) rotate(3.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  78% {
-    transform: translate(0px, 0px) rotate(5.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  80% {
-    transform: translate(0px, 0px) rotate(-4.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  82% {
-    transform: translate(0px, 0px) rotate(4.5deg);
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  84% {
     transform: translate(0px, 0px) rotate(2.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
+  52% {
+    transform: translate(0px, 0px) rotate(5.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  54% {
+    transform: translate(0px, 0px) rotate(5.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  56% {
+    transform: translate(0px, 0px) rotate(6.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  58% {
+    transform: translate(0px, 0px) rotate(-6.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  60% {
+    transform: translate(0px, 0px) rotate(-7.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  62% {
+    transform: translate(0px, 0px) rotate(3.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  64% {
+    transform: translate(0px, 0px) rotate(-2.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  66% {
+    transform: translate(0px, 0px) rotate(3.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  68% {
+    transform: translate(0px, 0px) rotate(5.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  70% {
+    transform: translate(0px, 0px) rotate(-4.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  72% {
+    transform: translate(0px, 0px) rotate(-6.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  74% {
+    transform: translate(0px, 0px) rotate(-2.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  76% {
+    transform: translate(0px, 0px) rotate(2.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  78% {
+    transform: translate(0px, 0px) rotate(1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  80% {
+    transform: translate(0px, 0px) rotate(1.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  82% {
+    transform: translate(0px, 0px) rotate(-7.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  84% {
+    transform: translate(0px, 0px) rotate(5.5deg);
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   86% {
-    transform: translate(0px, 0px) rotate(-5.5deg);
+    transform: translate(0px, 0px) rotate(5.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   88% {
-    transform: translate(0px, 0px) rotate(-4.5deg);
+    transform: translate(0px, 0px) rotate(-1.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   90% {
-    transform: translate(0px, 0px) rotate(-4.5deg);
+    transform: translate(0px, 0px) rotate(5.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
   92% {
-    transform: translate(0px, 0px) rotate(-1.5deg);
+    transform: translate(0px, 0px) rotate(6.5deg);
   }
 
   /* line 26, ../sass/_mixins.scss */
@@ -1992,7 +1992,7 @@
 
   /* line 26, ../sass/_mixins.scss */
   98% {
-    transform: translate(0px, 0px) rotate(-4.5deg);
+    transform: translate(0px, 0px) rotate(-0.5deg);
   }
 }
 
@@ -2000,60 +2000,60 @@
   /* line 19, ../sass/_mixins.scss */
   0% {
     transform: translate(0px, 0px) rotate(0deg);
-    opacity: 0.5;
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  10% {
-    transform: translate(4px, -5px) rotate(-2.5deg);
-    opacity: 0.4;
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  20% {
-    transform: translate(-3px, -5px) rotate(-1.5deg);
-    opacity: 0.2;
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  30% {
-    transform: translate(2px, -4px) rotate(1.5deg);
     opacity: 0.6;
   }
 
   /* line 26, ../sass/_mixins.scss */
-  40% {
-    transform: translate(0px, 2px) rotate(0.5deg);
-    opacity: 0.7;
-  }
-
-  /* line 26, ../sass/_mixins.scss */
-  50% {
-    transform: translate(-5px, 3px) rotate(0.5deg);
+  10% {
+    transform: translate(-4px, -1px) rotate(-0.5deg);
     opacity: 0.5;
   }
 
   /* line 26, ../sass/_mixins.scss */
-  60% {
-    transform: translate(-3px, -4px) rotate(1.5deg);
+  20% {
+    transform: translate(4px, -5px) rotate(-0.5deg);
+    opacity: 0.3;
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  30% {
+    transform: translate(3px, -4px) rotate(0.5deg);
     opacity: 0.1;
   }
 
   /* line 26, ../sass/_mixins.scss */
+  40% {
+    transform: translate(0px, -3px) rotate(0.5deg);
+    opacity: 0.8;
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  50% {
+    transform: translate(-2px, 4px) rotate(-2.5deg);
+    opacity: 0.8;
+  }
+
+  /* line 26, ../sass/_mixins.scss */
+  60% {
+    transform: translate(1px, -1px) rotate(-1.5deg);
+    opacity: 0.4;
+  }
+
+  /* line 26, ../sass/_mixins.scss */
   70% {
-    transform: translate(0px, -1px) rotate(-2.5deg);
-    opacity: 0.2;
+    transform: translate(-4px, -5px) rotate(-1.5deg);
+    opacity: 0;
   }
 
   /* line 26, ../sass/_mixins.scss */
   80% {
-    transform: translate(0px, -5px) rotate(1.5deg);
-    opacity: 0.5;
+    transform: translate(-2px, -4px) rotate(0.5deg);
+    opacity: 0;
   }
 
   /* line 26, ../sass/_mixins.scss */
   90% {
-    transform: translate(-4px, -4px) rotate(0.5deg);
+    transform: translate(1px, -4px) rotate(0.5deg);
     opacity: 0.8;
   }
 }
@@ -2062,60 +2062,60 @@
   /* line 19, ../sass/_mixins.scss */
   0% {
     transform: translate(0px, 0px) rotate(0deg);
-    opacity: 0;
+    opacity: 0.8;
   }
 
   /* line 26, ../sass/_mixins.scss */
   10% {
-    transform: translate(-20px, -11px) rotate(-6deg);
-    opacity: 0;
+    transform: translate(-11px, -10px) rotate(-3deg);
+    opacity: 0.2;
   }
 
   /* line 26, ../sass/_mixins.scss */
   20% {
-    transform: translate(-12px, 12px) rotate(-6deg);
-    opacity: 0.4;
+    transform: translate(-17px, 9px) rotate(6deg);
+    opacity: 0.8;
   }
 
   /* line 26, ../sass/_mixins.scss */
   30% {
-    transform: translate(3px, -17px) rotate(-1deg);
-    opacity: 0.9;
+    transform: translate(-10px, -18px) rotate(-1deg);
+    opacity: 0;
   }
 
   /* line 26, ../sass/_mixins.scss */
   40% {
-    transform: translate(8px, 19px) rotate(-9deg);
-    opacity: 0.5;
+    transform: translate(-12px, 12px) rotate(-5deg);
+    opacity: 0.2;
   }
 
   /* line 26, ../sass/_mixins.scss */
   50% {
-    transform: translate(5px, -6px) rotate(-5deg);
-    opacity: 0.2;
+    transform: translate(5px, 13px) rotate(-2deg);
+    opacity: 0.4;
   }
 
   /* line 26, ../sass/_mixins.scss */
   60% {
-    transform: translate(7px, 0px) rotate(-5deg);
-    opacity: 0.2;
+    transform: translate(5px, 2px) rotate(-10deg);
+    opacity: 0.4;
   }
 
   /* line 26, ../sass/_mixins.scss */
   70% {
-    transform: translate(-14px, -10px) rotate(6deg);
-    opacity: 0.9;
+    transform: translate(12px, -12px) rotate(1deg);
+    opacity: 0.3;
   }
 
   /* line 26, ../sass/_mixins.scss */
   80% {
-    transform: translate(17px, 1px) rotate(3deg);
-    opacity: 0.2;
+    transform: translate(6px, 16px) rotate(3deg);
+    opacity: 0.9;
   }
 
   /* line 26, ../sass/_mixins.scss */
   90% {
-    transform: translate(-12px, 5px) rotate(2deg);
+    transform: translate(16px, 6px) rotate(-9deg);
     opacity: 0.6;
   }
 }
