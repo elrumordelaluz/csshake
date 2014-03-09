@@ -9,11 +9,12 @@ $delay:0s;
 
 // The animation
 @mixin animation($name, $dur: $duration, $iter: $iteration, $tim: $timing, $del: $delay){
-	animation-name: $name;
-	animation-duration: $dur;
-	animation-iteration-count: $iter;
-	animation-timing-function: $tim;
-	animation-delay: $del;
+	@include pre(animation-name, $name);
+	@include pre(animation-duration, $dur);
+	@include pre(animation-iteration-count, $iter);
+	@include pre(animation-timing-function, $tim);
+	@include pre(animation-delay, $del);
+
 }
 
 

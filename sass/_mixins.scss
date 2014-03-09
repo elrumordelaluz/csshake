@@ -1,3 +1,29 @@
+ @mixin pre($name, $argument) {
+  #{$name}: $argument;
+  -webkit-#{$name}: $argument;
+  -ms-#{$name}: $argument;
+  -moz-#{$name}: $argument;
+  -o-#{$name}: $argument;
+}
+
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content; 
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  } 
+}
+
+
+
 @mixin shake($x, $y, $rot, $name, $steps:10, $opacity:false) {
   $r:0deg;
   $h:0px;
@@ -6,33 +32,38 @@
   $interval: $steps;
   $step: 0%;
 
-  @keyframes $name{
-    @while $step < 100% {
-      @if ($rot != 0deg){ $r : random($rot) - $rot/2;} 
-        @else { $r : 0deg; }
-      @if ($x != 0px){ $h : random($x) - $x/2; } 
-        @else { $h : 0px; }
-      @if ($y != 0px){ $v : random($y) - $y/2; } 
-        @else { $v : 0px; }
-    
-      @if($step == 0%){
-        #{$step} {
-          transform: translate(0px, 0px) rotate(0deg);
-          @if($opacity){
-            opacity: random(10)*.1;
-          }
-        }  
-      } @else {
-        #{$step} {
-          transform: translate($h, $v) rotate($r);
-          @if($opacity){
-            opacity: random(10)*.1; 
-          }
-        }
-      }
-      $step: $step + $interval;
-    }
+   @include keyframes($name) {
 
-  }
+	   	@while $step < 100% {
+	      @if ($rot != 0deg){ $r : random($rot) - $rot/2;} 
+	        @else { $r : 0deg; }
+	      @if ($x != 0px){ $h : random($x) - $x/2; } 
+	        @else { $h : 0px; }
+	      @if ($y != 0px){ $v : random($y) - $y/2; } 
+	        @else { $v : 0px; }
+	    
+	      @if($step == 0%){
+	        #{$step} {
+	          @include pre(transform,(translate(0px, 0px) rotate(0deg));
+	          @if($opacity){
+	            opacity: random(10)*.1;
+	          }
+	        }  
+	      } @else {
+	        #{$step} {
+	          @include pre(transform,(translate($h, $v) rotate($r));
+	          @if($opacity){
+	            opacity: random(10)*.1; 
+	          }
+	        }
+	      }
+	      $step: $step + $interval;
+	    }
+
+
+   }
 }
 
+
+
+ 
