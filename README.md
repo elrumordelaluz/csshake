@@ -52,8 +52,8 @@ where <code>$name</code>: animation-name,
 
 =======
 
-<p>Attention: you have to use the <strong>random()</strong> function to compile Sass files. <br>You could read how to implement it <a href="https://github.com/nex3/sass/pull/968" class="shake freez">here</a> or <a href="http://blog.codepen.io/2013/09/17/adding-random-function-sass/" class="shake shake-hard freez">here</a> or <a href="http://hugogiraudel.com/2013/10/17/sass-random/" class="shake shake-rotate freez">here</a> mucho more information.</p>
-<p style="text-decoration:line-through"><strong>And remember that there isn't <strong>-prefixes</strong> on the main code</strong>. Hoping that one day we won't need it.<br>In the <a href="http://elrumordelaluz.github.io/csshake/">demo page</a> I use the magic <a href="http://leaverou.github.io/prefixfree/">prefixfree</a></p>
+<p>Attention: you have to use the <strong>random()</strong> function to compile Sass files. <br>You could read how to implement it <a href="https://github.com/nex3/sass/pull/968" class="shake freez">here</a> or <a href="http://blog.codepen.io/2013/09/17/adding-random-function-sass/" class="shake shake-hard freez">here</a> or <a href="http://hugogiraudel.com/2013/10/17/sass-random/" class="shake shake-rotate freez">here</a> much more information.</p>
+~~And remember that there isn't -prefixes> on the main code~~. Hoping that one day we won't need it.<br>~~In the <a href="http://elrumordelaluz.github.io/csshake/">demo page</a> I use the magic <a href="http://leaverou.github.io/prefixfree/">prefixfree~~</a></p>
 <p><strong>UPDATE:</strong> Just added -webkit &amp; -ms prefixes to the main @mixins. The most important thing is that renders the @keyframes <strong>without redundancy</strong>.</p>
 
 =======
