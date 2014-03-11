@@ -9,17 +9,17 @@ $delay:0s;
 
 // The animation
 @mixin animation($name, $dur: $duration, $iter: $iteration, $tim: $timing, $del: $delay){
-	animation-name: $name;
-	animation-duration: $dur;
-	animation-iteration-count: $iter;
-	animation-timing-function: $tim;
-	animation-delay: $del;
+	@include vendorize(animation-name, $name, webkit ms spec);
+	@include vendorize(animation-duration, $dur, webkit ms spec);
+	@include vendorize(animation-iteration-count, $iter, webkit ms spec);
+	@include vendorize(animation-timing-function, $tim, webkit ms spec);
+	@include vendorize(animation-delay, $del, webkit ms spec);
 }
 
 
 .shake {
 	display: inline-block;
-	transform-origin: center center;
+	@include vendorize(transform-origin, center center, webkit ms spec);
 	
 	&:hover {
 		@include animation($base-name);
