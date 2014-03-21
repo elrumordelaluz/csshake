@@ -5,15 +5,17 @@ $base-name:shake-base;
 $iteration:infinite;
 $timing:ease-in-out;
 $delay:0s;
+$state:running;
 
 
 // The animation
-@mixin animation($name, $dur: $duration, $iter: $iteration, $tim: $timing, $del: $delay){
+@mixin animation($name, $dur: $duration, $iter: $iteration, $tim: $timing, $del: $delay, $sta: $state){
 	@include vendorize(animation-name, $name, webkit ms spec);
 	@include vendorize(animation-duration, $dur, webkit ms spec);
 	@include vendorize(animation-iteration-count, $iter, webkit ms spec);
 	@include vendorize(animation-timing-function, $tim, webkit ms spec);
 	@include vendorize(animation-delay, $del, webkit ms spec);
+	@include vendorize(animation-play-state, $sta, webkit spec);
 }
 
 
@@ -25,7 +27,7 @@ $delay:0s;
 		@include animation($base-name);
 	}
 	
-	&.freez {
+	&.freeze {
 		&.shake-hard { @include animation(shake-hard); }
 		&.shake-slow { @include animation(shake-slow, 5s); }
 		&.shake-little { @include animation(shake-little); }
@@ -34,9 +36,9 @@ $delay:0s;
 		&.shake-rotate { @include animation(shake-rotate); }
 		&.shake-opacity { @include animation(shake-opacity, 200ms); }
 		&.shake-crazy { @include animation(shake-crazy); }
-		animation-play-state: paused;
+		@include vendorize(animation-play-state, paused, webkit spec);
 		&:hover {
-			animation-play-state: running;
+			@include vendorize(animation-play-state, running, webkit spec);
 		}
 	}
 	
@@ -61,7 +63,7 @@ $delay:0s;
 		&.shake-opacity { @include animation(shake-opacity, 200ms); }
 		&.shake-crazy { @include animation(shake-crazy); }
 		&.hover-stop:hover{
-			animation-play-state: paused;
+			@include vendorize(animation-play-state, paused, webkit spec);
 		}
 	}
 	&.shake-delay { @include animation($base-name, $duration, $iteration, $timing, 4s); }
