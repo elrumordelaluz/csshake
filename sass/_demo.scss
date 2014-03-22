@@ -108,7 +108,7 @@ body {
   }
    &:after {
     border-top: 94px solid rgba(0,0,0,0.05);
-    transform:rotate(180deg);
+    @include vendorize(transform, rotate(180deg), webkit ms spec);
   }
 }
 

@@ -85,7 +85,7 @@ $prefix-spec: true;
   $prefix-o: $root-prefix-o;
   $prefix-ms: $root-prefix-ms;
   $prefix-spec: $root-prefix-spec; 
-}
+} 
 
 @mixin shake($x, $y, $rot, $name, $steps:10, $opacity:false) {
   $r:0deg;
