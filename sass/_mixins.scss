@@ -85,7 +85,7 @@ $prefix-spec: true;
   $prefix-o: $root-prefix-o;
   $prefix-ms: $root-prefix-ms;
   $prefix-spec: $root-prefix-spec; 
-}
+} 
 
 @mixin shake($x, $y, $rot, $name, $steps:10, $opacity:false) {
   $r:0deg;
@@ -108,14 +108,14 @@ $prefix-spec: true;
         #{$step} {
           @include vendorize(transform, translate(0px, 0px) rotate(0deg), webkit ms spec);
           @if($opacity){
-            opacity: random(10) / 10;
+            opacity: random(10)/10;
           }
         }  
       } @else {
         #{$step} {
           @include vendorize(transform, translate($h, $v) rotate($r), webkit ms spec);
           @if($opacity){
-            opacity: random(10) / 10; 
+            opacity: random(10)/10; 
           }
         }
       }
