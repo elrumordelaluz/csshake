@@ -108,14 +108,14 @@ $prefix-spec: true;
         #{$step} {
           @include vendorize(transform, translate(0px, 0px) rotate(0deg), webkit ms spec);
           @if($opacity){
-            opacity: random(10)*.1;
+            opacity: random(10)/10;
           }
         }  
       } @else {
         #{$step} {
           @include vendorize(transform, translate($h, $v) rotate($r), webkit ms spec);
           @if($opacity){
-            opacity: random(10)*.1; 
+            opacity: random(10)/10; 
           }
         }
       }
