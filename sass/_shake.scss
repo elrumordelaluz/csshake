@@ -70,6 +70,25 @@ $state:running;
 
 }
 
+.shaker:hover {
+	.shake {
+		@include animation($base-name);
+		// Specific shakings
+		&.shake-hard { @include animation(shake-hard); }
+		&.shake-slow { @include animation(shake-slow, 5s); }
+		&.shake-little { @include animation(shake-little); }
+		&.shake-horizontal { @include animation(shake-horizontal); }
+		&.shake-vertical { @include animation(shake-vertical); }
+		&.shake-rotate { @include animation(shake-rotate); }
+		&.shake-opacity { @include animation(shake-opacity, 200ms); }
+		&.shake-crazy { @include animation(shake-crazy); }
+		&.shake-constant {
+			&.hover-stop {
+				@include vendorize(animation-play-state, paused, webkit ms spec);
+			}
+		}
+	}
+}
 
 // The animations: its names and settings to call from animation mixin
 @include shake(5px, 5px, 3deg, 'shake-base', 2);
