@@ -9,7 +9,7 @@ Some CSS classes to move your DOM!
 
 <h3>How to use</h3>
 <p>
-Just include the CSS file <pre>&lt;link type="text/css" href="csshake.css"&gt;</pre>
+Just include the CSS file <pre>&lt;link rel="stylesheet" type="text/css" href="csshake.css"&gt;</pre>
 and call the diffetent classes on the DOM element you want to shake...
 <pre>&lt;div class="shake"&gt;&lt;/div&gt;</pre>
 <pre>&lt;div class="shake shake-hard"&gt;&lt;/div&gt;</pre>
