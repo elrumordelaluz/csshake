@@ -1,0 +1,23 @@
+{
+  "name": "csshake",
+  "version": "0.0.0",
+  "homepage": "http://elrumordelaluz.github.io/csshake/",
+  "authors": [
+    "Lionel <elrumordelaluz@hotmail.com>"
+  ],
+  "description": "Some CSS classes to move your DOM!",
+  "main": "csshake.css",
+  "keywords": [
+    "csshake",
+    "cssshake",
+    "shake"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
