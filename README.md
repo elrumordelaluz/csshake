@@ -20,7 +20,7 @@ and call the diffetent classes on the DOM element you want to shake...
 <pre>&lt;div class="shake shake-rotate"&gt;&lt;/div&gt;</pre>
 <pre>&lt;div class="shake shake-opacity"&gt;&lt;/div&gt;</pre>
 <pre>&lt;div class="shake shake-crazy"&gt;&lt;/div&gt;</pre>
-you could also add these classes to control the animation-play-state <code>.freeze</code>, <code>.shake-constant</code> &amp; <code>.hover-stop</code>
+you could also add these classes to control the animation-play-state <code>.freez</code>, <code>.shake-constant</code> &amp; <code>.hover-stop</code>
 </p>
 
 
