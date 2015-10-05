@@ -1,0 +1,35 @@
+{
+  "name": "csshake",
+  "version": "1.1.0",
+  "description": "Some CSS classes to move your DOM!",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run gzip",
+    "watch": "node-sass --watch sass/ -o dist/",
+    "build:raw": "node-sass sass/ -o dist/",
+    "build:min": "mkdir -p dist/min && node-sass --output-style compressed sass/ -o dist/min && npm run suffix && npm run move",
+    "suffix": "for file in dist/min/*.css; do mv \"$file\" \"${file%.css}.min.css\"; done",
+    "move": "mv dist/min/*.css dist && rm -r dist/min",
+    "gzip": "gzip-size dist/csshake.min.css | pretty-bytes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elrumordelaluz/csshake.git"
+  },
+  "keywords": [
+    "css",
+    "transitions",
+    "animations"
+  ],
+  "author": "@elrumordelaluz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elrumordelaluz/csshake/issues"
+  },
+  "homepage": "https://github.com/elrumordelaluz/csshake",
+  "devDependencies": {
+    "gzip-size-cli": "^1.0.0",
+    "node-sass": "^3.3.3",
+    "pretty-bytes": "^2.0.1"
+  }
+}
