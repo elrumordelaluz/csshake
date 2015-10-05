@@ -1,0 +1,102 @@
+// Variables
+$prefix: 'shake' !default;
+$trigger: 'shake-trigger' !default;
+
+// Placeholders
+%shake {
+  display: inline-block;
+  transform-origin: center center;
+}
+
+%paused   { animation-play-state: paused; }
+%running  { animation-play-state: running; }
+
+/// Do The Shake
+/// @param {String}  $name ['shake']              - Name for the keyframes animation
+/// @param {Number}  $h [5px]                     - Max number for random to assign in x axis
+/// @param {Number}  $v [5px]                     - Max number for random to assign in y axis
+/// @param {Number}  $r [3deg]                    - Max number for random rotation
+/// @param {Number}  $dur [100ms]                 - animation-duration; valid time value
+/// @param {Number}  $precision [.1]              - Precision of the keyframes animation (i.e 2 > 2%, 4%, 6%...)
+/// @param {String}  $q [infinite]                - animation-iteration-count; valid value
+/// @param {String}  $t [infinite]                - animation-timing-function; valid value
+/// @param {Number}  $delay [null]                - animation-delay; valid time value
+/// @param {Number}  $chunk [100%]                - Part of 100% where apply the animation
+@mixin do-shake(
+  $name: 'shake', 
+  $h: 5px, 
+  $v: 5px, 
+  $r: 3deg, 
+  $dur: 100ms, 
+  $precision: .02, 
+  $opacity: false, 
+  $q: infinite, 
+  $t: ease-in-out, 
+  $delay: null,
+  $chunk: 100%
+  ) {  
+
+  $rotate: 0;
+  $move-x: 0;
+  $move-y: 0;
+
+  $h: if(unitless($h) and $h != 0, $h * 1px, $h);
+  $v: if(unitless($v) and $v != 0, $v * 1px, $v);
+  $r: if(unitless($r) and $r != 0, $r * 1deg, $r);
+
+  @function apply-random($input) {
+    @return if($input != 0, random($input) - $input/2, 0);
+  }
+
+  // Keyframes
+  @at-root {
+    @keyframes #{$name} {
+      $interval: if($precision > 0 and $precision < 1, 100 * $precision, 10);
+      $step: $interval * 1%;
+
+      @while $step < $chunk {
+        $rotate: apply-random($r);
+        $move-x: apply-random($h);
+        $move-y: apply-random($v);
+        
+        #{$step} {
+          transform: translate($move-x, $move-y) rotate($rotate);
+          @if $opacity { opacity: random(100) / 100; }
+        }
+        
+        $step: $step + $interval;
+      }
+
+      #{ if($chunk < 100%, (0%, $chunk, 100%), (0%, 100%)) } {
+        transform: translate(0, 0) rotate(0);
+      }
+
+    }
+  }
+
+  @extend %shake;
+
+  &:hover,
+  .#{$trigger}:hover &,
+  &.#{$prefix}-freeze,
+  &.#{$prefix}-constant {
+    @if $delay { animation-delay: $delay; }
+    animation-duration: $dur;
+    animation-iteration-count: $q;
+    animation-name: #{$name};
+    animation-timing-function: $t;
+  }
+
+  &:hover,
+  .#{$trigger}:hover & { @extend %running; }
+
+}
+
+.#{$prefix}-freeze,
+.#{$prefix}-constant.#{$prefix}-constant--hover:hover,
+.#{$trigger}:hover .#{$prefix}-constant.#{$prefix}-constant--hover {
+  @extend %paused;
+}
+
+.#{$prefix}-freeze:hover,
+.#{$trigger}:hover .#{$prefix}-freeze { @extend %running; }

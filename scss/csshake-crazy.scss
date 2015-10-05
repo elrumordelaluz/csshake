@@ -1,0 +1,11 @@
+/* * * * * * * * * * * * * * * * * * * * *\  
+  CSShake :: shake-crazy
+  v1.5.0
+  CSS classes to move your DOM
+  (c) 2015 @elrumordelaluz
+  http://elrumordelaluz.github.io/csshake/
+  Licensed under MIT
+\* * * * * * * * * * * * * * * * * * * * */
+@import 'tools';
+
+.shake-crazy { @include do-shake('shake-crazy', 40, 40, 20, 100ms, .1, $opacity: true); }

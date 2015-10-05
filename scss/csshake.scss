@@ -1,0 +1,20 @@
+/* * * * * * * * * * * * * * * * * * * * *\  
+  CSShake :: Package
+  v1.5.0
+  CSS classes to move your DOM
+  (c) 2015 @elrumordelaluz
+  http://elrumordelaluz.github.io/csshake/
+  Licensed under MIT
+\* * * * * * * * * * * * * * * * * * * * */
+@import 'tools';
+
+.shake            { @include do-shake(); }
+.shake-little     { @include do-shake('shake-little', 2, 2, 1); }
+.shake-slow       { @include do-shake('shake-slow', 20, 20, 7, 5s); }
+.shake-hard       { @include do-shake('shake-hard', 20, 20, 7); }
+.shake-horizontal { @include do-shake('shake-horizontal', 20, 0, 0); }
+.shake-vertical   { @include do-shake('shake-vertical', 0, 20, 0); }
+.shake-rotate     { @include do-shake('shake-rotate', 0, 0, 15); }
+.shake-opacity    { @include do-shake('shake-opacity', 10, 10, 5, .5s, .1, $opacity: true); }
+.shake-crazy      { @include do-shake('shake-crazy', 40, 40, 20, 100ms, .1, $opacity: true); }
+.shake-chunk      { @include do-shake('shake-chunk', 30, 30, 30, 4s, $chunk: 40%); }

@@ -1,0 +1,11 @@
+/* * * * * * * * * * * * * * * * * * * * *\  
+  CSShake :: shake-rotate
+  v1.5.0
+  CSS classes to move your DOM
+  (c) 2015 @elrumordelaluz
+  http://elrumordelaluz.github.io/csshake/
+  Licensed under MIT
+\* * * * * * * * * * * * * * * * * * * * */
+@import 'tools';
+
+.shake-rotate { @include do-shake('shake-rotate', 0, 0, 15); }
