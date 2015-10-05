@@ -15,7 +15,7 @@ $trigger: 'shake-trigger' !default;
 /// @param {String}  $name ['shake']              - Name for the keyframes animation
 /// @param {Number}  $h [5px]                     - Max number for random to assign in x axis
 /// @param {Number}  $v [5px]                     - Max number for random to assign in y axis
-/// @param {Number}  $r [3deg]                    - Max number for random rotatopm
+/// @param {Number}  $r [3deg]                    - Max number for random rotation
 /// @param {Number}  $dur [100ms]                 - animation-duration; valid time value
 /// @param {Number}  $precision [.1]              - Precision of the keyframes animation (i.e 2 > 2%, 4%, 6%...)
 /// @param {String}  $q [infinite]                - animation-iteration-count; valid value
