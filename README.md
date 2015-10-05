@@ -7,9 +7,25 @@ I had to do a 'shake-animation' for a big project. First, I did it in vanilla CS
 After finish it I discover [this](http://jackrugile.com/jrumble/) cool jQuery plugin by [@jackrugile](https://twitter.com/jackrugile).
 Then I started to think in made *[this little CSS project](http://elrumordelaluz.github.io/csshake/)*
 
+### Install
+Fork this repo
+```
+  $ git clone https://github.com/elrumordelaluz/csshake.git
+```
+
+or with Bower
+```
+  $ bower install csshake
+```
+
+or with npm
+```
+  $ npm i csshake
+```
+
 ### How to use
 First include the CSS file 
-```
+```html
   <link rel="stylesheet" type="text/css" href="csshake.css">` 
 ```
 
