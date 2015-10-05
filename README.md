@@ -54,7 +54,8 @@ Editing the `do-shake` mixin in `scss/_tools.scss` file
         $delay: null,
         $chunk: 100%);
 }
-``
+```
+
 Where:
 `$name` {String} is the name for the keyframes animation
 `$h` {Number} is the max number for random to assign in x axis
