@@ -5,10 +5,15 @@
     "Lionel <elrumordelaluz@hotmail.com>"
   ],
   "description": "Some CSS classes to move your DOM!",
-  "main": "csshake.css",
+  "main": [
+    "dist/csshake.css",
+    "dist/csshake.min.css"
+    ],
   "keywords": [
     "csshake",
-    "cssshake",
+    "css",
+    "animations",
+    "transitions",
     "shake"
   ],
   "license": "MIT",
