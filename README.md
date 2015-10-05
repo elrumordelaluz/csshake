@@ -56,16 +56,24 @@ Editing the `do-shake` mixin in `scss/_tools.scss` file
 }
 ```
 
-Where:
 `$name` {String} is the name for the keyframes animation
+
 `$h` {Number} is the max number for random to assign in x axis
+
 `$v` {Number} is the max number for random to assign in y axis
+
 `$r` {Number} is the max number for random rotation
+
 `$dur` {Number}  animation-duration; valid time value
+
 `$precision` {Number} is the precision of the keyframes animation (i.e `.2` > 2%, 4%, 6%; `.1` > 10%, 20%...)
+
 `$q` {String} is the `animation-iteration-count` value
+
 `$t` {String} `animation-timing-function` value
+
 `$delay` {Number} `animation-delay` time value
+
 `$chunk` {Number} is the part of the keyframes where apply the animation
 
 =======
