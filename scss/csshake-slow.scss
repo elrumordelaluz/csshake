@@ -1,0 +1,11 @@
+/* * * * * * * * * * * * * * * * * * * * *\  
+  CSShake :: shake-slow
+  v1.5.0
+  CSS classes to move your DOM
+  (c) 2015 @elrumordelaluz
+  http://elrumordelaluz.github.io/csshake/
+  Licensed under MIT
+\* * * * * * * * * * * * * * * * * * * * */
+@import 'tools';
+
+.shake-slow { @include do-shake('shake-slow', 20, 20, 7, 5s); }
