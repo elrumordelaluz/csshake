@@ -64,7 +64,7 @@ Editing the `do-shake` mixin in `scss/_tools.scss` file
 
 `$r` {Number} is the max number for random rotation
 
-`$dur` {Number}  animation-duration; valid time value
+`$dur` {Number} is the `animation-duration` time value
 
 `$precision` {Number} is the precision of the keyframes animation (i.e `.2` > 2%, 4%, 6%; `.1` > 10%, 20%...)
 
