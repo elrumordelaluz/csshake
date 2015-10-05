@@ -1,62 +1,72 @@
-csshake
-=======
-
+# csshake
 Some CSS classes to move your DOM!
-<a href="http://elrumordelaluz.github.io/csshake/">Live Demo</a>
+[Live Demo](http://elrumordelaluz.github.io/csshake/)
 
-<h3>Origins</h3>
-<p>I had to do a shake-animation for a big project. I did it in vanilla CSS at the begining.<br>After finish it I discover <a class="shake shake-constant shake-little" href="http://jackrugile.com/jrumble/">this</a> cool jQuery plugin by <a class="shake" href="https://twitter.com/jackrugile">@jackrugile</a><br> Then I started to think in made <strong><a href="http://elrumordelaluz.github.io/csshake/">this little CSS project</a></strong></p>
+### Origins
+I had to do a 'shake-animation' for a big project. First, I did it in vanilla CSS.
+After finish it I discover [this](http://jackrugile.com/jrumble/) cool jQuery plugin by [@jackrugile](https://twitter.com/jackrugile).
+Then I started to think in made *[this little CSS project](http://elrumordelaluz.github.io/csshake/)*
 
-<h3>How to use</h3>
-<p>
-Just include the CSS file <pre>&lt;link rel="stylesheet" type="text/css" href="csshake.css"&gt;</pre>
-and call the diffetent classes on the DOM element you want to shake...
-<pre>&lt;div class="shake"&gt;&lt;/div&gt;</pre>
-<pre>&lt;div class="shake shake-hard"&gt;&lt;/div&gt;</pre>
-<pre>&lt;div class="shake shake-slow"&gt;&lt;/div&gt;</pre>
-<pre>&lt;div class="shake shake-little"&gt;&lt;/div&gt;</pre>
-<pre>&lt;div class="shake shake-horizontal"&gt;&lt;/div&gt;</pre>
-<pre>&lt;div class="shake shake.vertical"&gt;&lt;/div&gt;</pre>
-<pre>&lt;div class="shake shake-rotate"&gt;&lt;/div&gt;</pre>
-<pre>&lt;div class="shake shake-opacity"&gt;&lt;/div&gt;</pre>
-<pre>&lt;div class="shake shake-crazy"&gt;&lt;/div&gt;</pre>
-you could also add these classes to control the animation-play-state <code>.freez</code>, <code>.shake-constant</code> &amp; <code>.hover-stop</code>
-</p>
+### How to use
+First include the CSS file 
+```
+  <link rel="stylesheet" type="text/css" href="csshake.css">` 
+```
 
+Then call the diffetent classes on the element you want to shake!
+```html
+  <div class="shake"></div>
+  <div class="shake shake-hard"></div>
+  <div class="shake shake-slow"></div>
+  <div class="shake shake-little"></div>
+  <div class="shake shake-horizontal"></div>
+  <div class="shake shake.vertical"></div>
+  <div class="shake shake-rotate"></div>
+  <div class="shake shake-opacity"></div>
+  <div class="shake shake-crazy"></div>
+```
 
-<h3>Customize</h3>
-<p>You could customize the SASS @mixins to create new shaking animations, yeah!</p>
-Editing <code>_mixins.scss</code>
-<pre> @include shake($x, $y, $rot, $name, $steps, $opacity);</pre>
-where <code>$x</code> & <code>$y</code>: pixels to move on the X and Y axis,
-		  <code>$rot</code>: deg to rotate,
-		  <code>$name</code>: the name assigned to those parameters,
-		  <code>$steps</code>: adjust the animation loop (i.e 10 makes an animation in steps of 10%),
-		  <code>$opacity</code>: true/false to add opacity animation
-<p>for example:
-<pre>@include shake(40px, 40px, 20deg, 'shake-crazy', 10, true);</pre>
-</p>
+Add also classes to control the `animation-play-state`.
+```html
+<!-- Freeze the animation at that point when :hover -->
+<div class="shake shake-freeze"></div>
+<!-- Continuous animation instead on :hover -->
+<div class="shake shake-constant"></div>
+<!-- and stop when :hover -->
+<div class="shake shake-constant shake-constant--hover"></div>
+```
+
+### Customize
+You could customize the Sass @mixins to create new shaking animations, yeah!
+Editing the `do-shake` mixin in `scss/_tools.scss` file
+```scss
+.my-custom-shake {
+  @include do-shake(
+        $name: 'my-custom-shake', 
+        $h: 5px, 
+        $v: 5px, 
+        $r: 3deg, 
+        $dur: 100ms, 
+        $precision: .02, 
+        $opacity: false, 
+        $q: infinite, 
+        $t: ease-in-out, 
+        $delay: null,
+        $chunk: 100%);
+}
+``
+Where:
+`$name` {String} is the name for the keyframes animation
+`$h` {Number} is the max number for random to assign in x axis
+`$v` {Number} is the max number for random to assign in y axis
+`$r` {Number} is the max number for random rotation
+`$dur` {Number}  animation-duration; valid time value
+`$precision` {Number} is the precision of the keyframes animation (i.e `.2` > 2%, 4%, 6%; `.1` > 10%, 20%...)
+`$q` {String} is the `animation-iteration-count` value
+`$t` {String} `animation-timing-function` value
+`$delay` {Number} `animation-delay` time value
+`$chunk` {Number} is the part of the keyframes where apply the animation
 
 =======
 
-Editing <code>_shake.scss</code>
-<pre>@include animation($name, $dur, $iter, $tim, $del);</pre>
-where <code>$name</code>: animation-name,
-		  <code>$dur</code>: animation-duration,
-		  <code>$iter</code>: animation-iteration-count,
-		  <code>$tim</code>: animation-timing-function,
-		  <code>$del</code>: animation-delay
-<p>for example:
-<pre>@include animation(shake-slow, 5s);</pre>
-</p>
-
-=======
-
-<p>Attention: you have to use the <strong>random()</strong> function to compile Sass files. <br>You could read how to implement it <a href="https://github.com/nex3/sass/pull/968" class="shake freez">here</a> or <a href="http://blog.codepen.io/2013/09/17/adding-random-function-sass/" class="shake shake-hard freez">here</a> or <a href="http://hugogiraudel.com/2013/10/17/sass-random/" class="shake shake-rotate freez">here</a> much more information.</p>
-~~And remember that there isn't -prefixes> on the main code~~. Hoping that one day we won't need it.<br>~~In the <a href="http://elrumordelaluz.github.io/csshake/">demo page</a> I use the magic <a href="http://leaverou.github.io/prefixfree/">prefixfree~~</a></p>
-<p><strong>UPDATE:</strong> Just added -webkit &amp; -ms prefixes to the main @mixins. The most important thing is that renders the @keyframes <strong>without redundancy</strong>.</p>
-
-=======
-
-
-<footer>Made with ♥ by <a class="shake shake-constant hover-stop" href="http://twitter.com/elrumordelaluz">@elrumordelaluz</a>, using <a href="http://sass-lang.com/">Sass</a>.<br>In the <a href="http://elrumordelaluz.github.io/csshake/">Demo page</a> I used <a href="http://leaverou.github.io/prefixfree/">prefixfree</a> and <a href="http://prismjs.com/">Prism.js</a> both by <a href="http://twitter.com/LeaVerou">Lea Verou</a> and <a href="https://github.com/peachananr/onepage-scroll">One page scroll</a> plugin by <a href="https://twitter.com/peachananr">@peachananr</a> </footer>
+Made with ♥ by [@elrumordelaluz](http://twitter.com/elrumordelaluz) using [Sass](http://sass-lang.com/).
