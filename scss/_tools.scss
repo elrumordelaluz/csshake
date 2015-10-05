@@ -33,8 +33,7 @@ $trigger: 'shake-trigger' !default;
   $q: infinite, 
   $t: ease-in-out, 
   $delay: null,
-  $chunk: 100%,
-  $parent: false
+  $chunk: 100%
   ) {  
 
   $rotate: 0;
