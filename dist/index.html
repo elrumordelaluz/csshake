@@ -2,23 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>CSS Shake</title>
+  <title>CSS Shake :: Download center</title>
+  <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+    body { 
+      background-color: #2ab8ac; 
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      text-align: center;
+    }
+    h1,
+    h3 {
+      font-family: 'Dancing Script', cursive;
+      font-weight: 100;
+    }
+    h1 { 
+      font-size: 4em;
+    }
+    h3 {
+      font-size: 2em;
+    }
+    a { color: inherit; }
+    .main-title:after {
+        content: attr(title);
+        position: absolute;
+        font-size: .25em;
+        margin-left: -1em;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .btn {
+      background-color: transparent;
+      border: 1px solid;
+      color: white;
+      font-size: 14px;
+      
+      letter-spacing: 1px;
+      line-height: 1;
+      margin: .5em;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: .3s;
+      padding: 1.3em;
+      /*padding-bottom: 2.5em;*/
+      position: relative;
+    }
+
+    .btn:hover {
+      background-color: white;
+      border-color: white;
+      color: #2ab8ac;
+    }
+
+    .btn:after {
+      bottom: .5em;
+      content: attr(href);
+      font-size: 70%;
+      left: 50%;
+      position: absolute;
+      text-transform: none;
+      transform: translateX(-50%);
+    }
+
+    h1 small {
+      font-size: 25%;
+      font-family: 'Open Sans', sans-serif;
+    }
+    footer { margin-top: 2rem;}
+    footer p { font-size: 85%; }
+    footer a { text-decoration: none; }
+  </style>
   <link rel="stylesheet" type="text/css" href="csshake.min.css">
 </head>
 <body>
-  <h1 class="shake">shake</h1>
-  <h1 class="shake-little">shake-little</h1>
-  <h1 class="shake-slow">shake-slow</h1>
-  <h1 class="shake-hard">shake-hard</h1>
-  <h1 class="shake-horizontal">shake-horizontal</h1>
-  <h1 class="shake-vertical">shake-vertical</h1>
-  <h1 class="shake-rotate">shake-rotate</h1>
-  <h1 class="shake-opacity">shake-opacity</h1>
-  <h1 class="shake-crazy">shake-crazy</h1>
-  <h1 class="shake-chunk shake-constant">shake-chunk</h1>
-  <p class="shake-trigger">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste expedita magnam laboriosam voluptas laudantium! Sed cumque earum quibusdam, accusantium tempore officia! Ex vitae iste dicta, nesciunt maxime alias odio et corporis nihil eaque necessitatibus cupiditate sequi dignissimos explicabo repudiandae beatae quibusdam esse placeat pariatur dolore quas inventore iure doloribus! Quibusdam officiis eligendi libero sit amet necessitatibus illo, magnam possimus aliquam eaque ea ab soluta neque, optio ratione! Beatae impedit facere animi sint autem, quod itaque eos vero suscipit est odio nulla ab aperiam molestiae. Error est suscipit doloribus odio cum similique, debitis nostrum velit accusamus perspiciatis pariatur veniam repudiandae ad architecto officia. Ducimus aliquam, nostrum neque perferendis aperiam cupiditate magnam tempora aliquid. Illum autem nisi nostrum, dicta, excepturi delectus maiores velit vero repellat at laborum aspernatur dolore saepe vel eius error ipsam ex ratione, ut a. Iusto consequuntur tenetur cumque harum placeat eveniet. Eius consectetur quo architecto aliquam quam animi nihil vero maxime eaque illum pariatur dolorem ducimus, suscipit facere modi nisi similique quos dolorum placeat? Odio consectetur, sed. Nesciunt a est assumenda modi, fugiat perspiciatis molestias ipsum necessitatibus minus, tempore sint expedita repellendus itaque quaerat accusantium obcaecati nobis consectetur dicta. Atque non a ipsum maxime iusto mollitia aut esse dolores recusandae, architecto ducimus magnam suscipit unde aspernatur voluptatibus quas vero impedit dolorum at earum consectetur adipisci molestiae sapiente, assumenda! Amet nostrum nesciunt quae, possimus, suscipit, soluta quia nihil corrupti nobis voluptatibus velit! Dolore odit autem numquam neque, exercitationem nihil velit recusandae suscipit nemo voluptates tempora quidem eum labore quibusdam consequuntur nam ad voluptate, dolores necessitatibus culpa nobis amet. Quaerat dolorum modi ipsam architecto dolor officia impedit praesentium porro? Mollitia velit magnam commodi blanditiis nisi impedit cum, modi, laborum vitae illo, rem autem corporis saepe voluptas sit neque quia architecto amet maiores possimus eligendi error cumque recusandae. Aliquam, error sequi.
-    <span class="shake-hard shake-freeze">hola</span>
-  </p>
+  <h1 class="main-title" title="v1.5.0">
+    CSShake
+  </h1>
+  <h3 class="shake-slow shake-constant shake-constant--hover">Download center</h3>
+  <br>
+  <a class="btn shake" href="csshake.css">CSShake Pack (2.73 kB)</a><br>
+  <a class="btn shake" href="csshake.min.css">CSShake Pack minified (2.52 kB)</a>
+  <br><br><br>
+  <a class="btn shake-little" href="csshake-little.css">CSShake little (592 B)</a>
+  <a class="btn shake-little" href="csshake-little.min.css">CSShake little minified (447 B)</a><br>
+  <a class="btn shake-slow" href="csshake-slow.css">CSShake slow (783 B)</a>
+  <a class="btn shake-slow" href="csshake-slow.min.css">CSShake slow minified (611 B)</a><br>
+  <a class="btn shake-hard" href="csshake-hard.css">CSShake hard (779 B)</a>
+  <a class="btn shake-hard" href="csshake-hard.min.css">CSShake hard minified (624 B)</a><br>
+  <a class="btn shake-horizontal" href="csshake-horizontal.css">CSShake horizontal (625 B)</a>
+  <a class="btn shake-horizontal" href="csshake-horizontal.min.css">CSShake horizontal minified (481 B)</a><br>
+  <a class="btn shake-vertical" href="csshake-vertical.css">CSShake vertical (626 B)</a>
+  <a class="btn shake-vertical" href="csshake-vertical.min.css">CSShake vertical minified (478 B)</a><br>
+  <a class="btn shake-rotate" href="csshake-rotate.css">CSShake rotate (611 B)</a>
+  <a class="btn shake-rotate" href="csshake-rotate.min.css">CSShake rotate minified (470 B)</a><br>
+  <a class="btn shake-crazy" href="csshake-crazy.css">CSShake crazy (538 B)</a>
+  <a class="btn shake-crazy" href="csshake-crazy.min.css">CSShake crazy minified (389 B)</a><br>
+
+  <footer>
+    <p>Made with <3 by <a href="https://twitter.com/elrumordelaluz">@elrumordelaluz</a> | <a href="http://elrumordelaluz.github.io/csshake/">Demo</a> | <a href="https://github.com/elrumordelaluz/csshake">Repository</a></p>
+  </footer>
 </body>
 </html>
