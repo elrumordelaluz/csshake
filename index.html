@@ -24,9 +24,7 @@
 		    text-align: center;
 		    width: 178px;
 		    height: auto;
-		    right: 35px;
-		    top: 35px;
-		    position: fixed;
+		    position: relative;
 		    background: rgba(255,255,255,0.8);
 		    border: 1px solid rgba(0,0,0,0.05);
 		    z-index: 1000000;
@@ -34,6 +32,15 @@
 		    padding: 24px 24px 10px 24px;
 		    font-size: 12px;
 		    font-weight: 700;
+		    margin: 0 auto;
+		}
+
+		@media (min-width: 40em) {
+			#carbonads {
+				position: fixed;
+				right: 35px;
+		    top: 35px;
+			}
 		}
 		
 		.carbon-text { 
