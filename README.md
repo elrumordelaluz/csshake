@@ -94,4 +94,13 @@ Editing the `do-shake` mixin in `scss/_tools.scss` file
 
 =======
 
+### Changelog
+#### [v1.5.0](https://github.com/elrumordelaluz/csshake/releases/tag/v1.5) (October 5, 2015)
+- Improve the core mixin for a better output code
+- Generate the entire 'shake' animation from only one [@mixin](https://github.com/elrumordelaluz/csshake/blob/master/scss/_tools.scss#L30). Easier to cerate custom shakes animations classes.
+- Add a [new argument](https://github.com/elrumordelaluz/csshake/blob/master/scss/_tools.scss#L41) to allow animate only part of the 100% of keyframes. Solves [issue #25](https://github.com/elrumordelaluz/csshake/issues/25)
+- Add a [class](https://github.com/elrumordelaluz/csshake/blob/master/scss/_tools.scss#L3) to allow fire animation from a parent element. Solves [issue #16](https://github.com/elrumordelaluz/csshake/issues/16)
+- Update semanthics on modifiers classes
+- Export separated stylesheets for each animation. Solves [issue #20](https://github.com/elrumordelaluz/csshake/issues/20)
+
 Made with ♥ by [@elrumordelaluz](http://twitter.com/elrumordelaluz) using [Sass](http://sass-lang.com/).
