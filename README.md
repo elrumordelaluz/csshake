@@ -103,4 +103,6 @@ Editing the `do-shake` mixin in `scss/_tools.scss` file
 - Update semanthics on modifiers classes
 - Export separated stylesheets for each animation. Solves [issue #20](https://github.com/elrumordelaluz/csshake/issues/20)
 
+======
+
 Made with ♥ by [@elrumordelaluz](http://twitter.com/elrumordelaluz) using [Sass](http://sass-lang.com/).
