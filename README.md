@@ -1,5 +1,4 @@
-# Csshake
-[![npm version](https://badge.fury.io/js/csshake.svg)](http://badge.fury.io/js/csshake)
+# Csshake [![npm version](https://badge.fury.io/js/csshake.svg)](http://badge.fury.io/js/csshake)
 Some CSS classes to move your DOM!
 [Live Demo](http://elrumordelaluz.github.io/csshake/)
 
