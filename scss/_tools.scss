@@ -11,6 +11,10 @@ $trigger: 'shake-trigger' !default;
 %paused   { animation-play-state: paused; }
 %running  { animation-play-state: running; }
 
+@function apply-random($input) {
+  @return if($input != 0, random($input) - $input/2, 0);
+}
+
 /// Do The Shake
 /// @param {String}  $name ['shake']              - Name for the keyframes animation
 /// @param {Number}  $h [5px]                     - Max number for random to assign in x axis
@@ -43,10 +47,6 @@ $trigger: 'shake-trigger' !default;
   $h: if(unitless($h) and $h != 0, $h * 1px, $h);
   $v: if(unitless($v) and $v != 0, $v * 1px, $v);
   $r: if(unitless($r) and $r != 0, $r * 1deg, $r);
-
-  @function apply-random($input) {
-    @return if($input != 0, random($input) - $input/2, 0);
-  }
 
   // Keyframes
   @at-root {
