@@ -13,15 +13,17 @@ Fork this repo
   $ git clone https://github.com/elrumordelaluz/csshake.git
 ```
 
-or with Bower
+or via Bower
 ```
   $ bower install csshake
 ```
 
-or with npm
+or via npm
 ```
   $ npm i csshake
 ```
+or from [_Download Center_](http://csshake.surge.sh/) where you could download the main `css` file or separated files for each shake animation, expanded or minified.
+
 
 ### How to use
 First include the CSS file 
