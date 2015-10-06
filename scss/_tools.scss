@@ -22,8 +22,9 @@ $trigger: 'shake-trigger' !default;
 /// @param {Number}  $r [3deg]                    - Max number for random rotation
 /// @param {Number}  $dur [100ms]                 - animation-duration; valid time value
 /// @param {Number}  $precision [.1]              - Precision of the keyframes animation (i.e 2 > 2%, 4%, 6%...)
+/// @param {Boolean} $opacity [false]             - To apply random animation also in the opacity property
 /// @param {String}  $q [infinite]                - animation-iteration-count; valid value
-/// @param {String}  $t [infinite]                - animation-timing-function; valid value
+/// @param {String}  $t [ease-in-out]             - animation-timing-function; valid value
 /// @param {Number}  $delay [null]                - animation-delay; valid time value
 /// @param {Number}  $chunk [100%]                - Part of 100% where apply the animation
 @mixin do-shake(
