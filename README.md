@@ -22,7 +22,18 @@ or via npm
 ```
   $ npm i csshake
 ```
-or from [_Download Center_](http://csshake.surge.sh/) where you could download the main `css` file or separated files for each shake animation, expanded or minified.
+
+#### scripts
+```
+  $ npm run watch
+  $ npm run build:raw
+  $ npm run build:min
+```
+
+#### Download Center http://csshake.surge.sh/
+You could download the complete `csshake.css` file or separated files for each shake animation (i.e `csshake-little.css`).
+Each one expanded or minified.
+
 
 
 ### How to use
