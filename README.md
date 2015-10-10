@@ -97,6 +97,8 @@ Editing the `do-shake` mixin in `scss/_tools.scss` file
 
 `$precision` {Number} is the precision of the keyframes animation. For example `.02` generates keyframes each 2% and `.1` each 10%. The calculation is `$step: 100 * $precision;`
 
+`$opacity` {Boolean} to apply random animation also in the opacity property
+
 `$q` {String} is the `animation-iteration-count` value
 
 `$t` {String} `animation-timing-function` value
