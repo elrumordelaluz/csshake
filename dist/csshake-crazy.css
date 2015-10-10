@@ -22,32 +22,32 @@
 
 @keyframes shake-crazy {
   10% {
-    transform: translate(-5px, 10px) rotate(-2deg);
-    opacity: 0.83; }
-  20% {
-    transform: translate(-5px, 4px) rotate(-6deg);
+    transform: translate(19px, -6px) rotate(10deg);
     opacity: 0.2; }
+  20% {
+    transform: translate(-8px, -5px) rotate(2deg);
+    opacity: 0.12; }
   30% {
-    transform: translate(8px, 18px) rotate(2deg);
-    opacity: 0.05; }
+    transform: translate(-19px, 4px) rotate(-5deg);
+    opacity: 0.46; }
   40% {
-    transform: translate(7px, 5px) rotate(1deg);
-    opacity: 0.88; }
+    transform: translate(11px, 10px) rotate(2deg);
+    opacity: 0.84; }
   50% {
-    transform: translate(-10px, 15px) rotate(7deg);
-    opacity: 0.69; }
+    transform: translate(-3px, -18px) rotate(-5deg);
+    opacity: 1; }
   60% {
-    transform: translate(11px, 1px) rotate(6deg);
-    opacity: 0.01; }
+    transform: translate(1px, 17px) rotate(-4deg);
+    opacity: 0.29; }
   70% {
-    transform: translate(-13px, 13px) rotate(-6deg);
-    opacity: 0.83; }
+    transform: translate(10px, -9px) rotate(-9deg);
+    opacity: 0.9; }
   80% {
-    transform: translate(9px, 20px) rotate(8deg);
-    opacity: 0.27; }
+    transform: translate(5px, 1px) rotate(-8deg);
+    opacity: 0.07; }
   90% {
-    transform: translate(-19px, 10px) rotate(-2deg);
-    opacity: 0.6; }
+    transform: translate(-6px, -3px) rotate(8deg);
+    opacity: 0.37; }
   0%, 100% {
     transform: translate(0, 0) rotate(0); } }
 
@@ -55,7 +55,4 @@
 .shake-trigger:hover .shake-crazy,
 .shake-crazy.shake-freeze,
 .shake-crazy.shake-constant {
-  animation-duration: 100ms;
-  animation-iteration-count: infinite;
-  animation-name: shake-crazy;
-  animation-timing-function: ease-in-out; }
+  animation: shake-crazy 100ms ease-in-out infinite; }

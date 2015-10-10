@@ -82,10 +82,7 @@ $trigger: 'shake-trigger' !default;
   &.#{$prefix}-freeze,
   &.#{$prefix}-constant {
     @if $delay { animation-delay: $delay; }
-    animation-duration: $dur;
-    animation-iteration-count: $q;
-    animation-name: #{$name};
-    animation-timing-function: $t;
+    animation: #{$name} $dur $t $q;
   }
 
   &:hover,
