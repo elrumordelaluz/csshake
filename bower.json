@@ -5,10 +5,7 @@
     "Lionel <elrumordelaluz@hotmail.com>"
   ],
   "description": "Some CSS classes to move your DOM!",
-  "main": [
-    "dist/csshake.css",
-    "dist/csshake.min.css"
-    ],
+  "main": "dist/csshake.css",
   "keywords": [
     "csshake",
     "css",
