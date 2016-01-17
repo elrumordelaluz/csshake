@@ -34,6 +34,8 @@ or via npm
 You could download the complete `csshake.css` file or separated files for each shake animation (i.e `csshake-little.css`).
 Each one expanded or minified.
 
+### CDN
+Now is also available in `cdnjs` for each shake animation: https://cdnjs.com/libraries/csshake
 
 
 ### How to use
