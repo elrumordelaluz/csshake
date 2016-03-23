@@ -435,6 +435,7 @@ body {
     cursor: pointer; }
 
 .btn {
+  position: relative;
   font-family: 'Dancing Script', cursive;
   font-size: 40px;
   padding: 10px 20px;
@@ -453,6 +454,17 @@ body {
   font-size: 85%;
   margin-top: 1.5em;
   display: block; }
+
+.badge {
+  position: absolute;
+  top: -.5rem;
+  right: -.5rem;
+  border-radius: 5px;
+  background-color: #cce033;
+  font-family: 'Helvetica Neue', 'Arial', sans;
+  font-size: .7rem;
+  padding: 0 .5rem;
+}
 
 pre[class*="shake"][class*="language"] {
   padding: .3em .5em;
