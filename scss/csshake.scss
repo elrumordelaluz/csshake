@@ -9,6 +9,7 @@
 @import 'tools';
 
 .shake            { @include do-shake(); }
+.shake-constant   { @include do-shake('shake-constant'); }
 .shake-little     { @include do-shake('shake-little', 2, 2, 1); }
 .shake-slow       { @include do-shake('shake-slow', 20, 20, 7, 5s); }
 .shake-hard       { @include do-shake('shake-hard', 20, 20, 7); }

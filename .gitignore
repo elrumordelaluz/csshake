@@ -17,3 +17,5 @@ scss-lint-report.xml
 # folders
 node_modules
 demo.*
+
+.idea/
