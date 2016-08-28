@@ -51,7 +51,7 @@ Then call the diffetent classes on the element you want to shake!
   <div class="shake shake-slow"></div>
   <div class="shake shake-little"></div>
   <div class="shake shake-horizontal"></div>
-  <div class="shake shake.vertical"></div>
+  <div class="shake shake-vertical"></div>
   <div class="shake shake-rotate"></div>
   <div class="shake shake-opacity"></div>
   <div class="shake shake-crazy"></div>
