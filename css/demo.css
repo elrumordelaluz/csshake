@@ -303,7 +303,7 @@ body {
   .preview-item.big {
     width: 100%;
     height: 0;
-    font-size: 60px;
+    font-size: 110px;
     line-height: 100%;
     padding-bottom: 100%; }
   .preview-item.small {
@@ -326,6 +326,7 @@ body {
   .section.pear .preview-item {
     background-color: #d7e75f; }
   .preview-item.transp {
+    color: white;
     background-color: transparent!important; }
   .preview-item:after {
     content: "";
@@ -482,8 +483,6 @@ pre[class*="shake"][class*="language"] {
   .section h1 {
     font-size: 5em; }
 
-  .preview-item.big {
-    font-size: 160px; } }
 .u-mt2 {
   margin-top: 1rem; }
 
