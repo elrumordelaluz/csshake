@@ -327,16 +327,6 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="js/prism.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('#shake-type').change(function(){
-				var newShake = $(this).val();
-				var regex = /(\s)*(shake-.*?)(?=\s)/g; 
-				$('#pr1, #pr2').removeClass('shake-hard shake-slow shake-little shake-horizontal shake-vertical shake-rotate shake-opacity shake-crazy').addClass(newShake);
-			})
-
-		})
-	</script>
-	
+	<script async defer src="js/index.js"></script>
 </body>
 </html>
