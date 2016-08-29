@@ -325,6 +325,8 @@ body {
     background-color: #41d4c7; }
   .section.pear .preview-item {
     background-color: #d7e75f; }
+  .preview-item.transp {
+    background-color: transparent!important; }
   .preview-item:after {
     content: "";
     width: 0;
