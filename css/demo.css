@@ -720,4 +720,38 @@ pre[class*="shake"][class*="language"] {
   animation-name: verical-slow;
   animation-timing-function: ease-in-out; }
 
-/*# sourceMappingURL=demo.css.map */
+.new-banner {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  z-index: 10;
+  width: 250px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1em;
+}
+
+.new-banner:before {
+  content: 'new!';
+  position: absolute;
+  left: -13px;
+  top: -7px;
+  background-color: #e96144;
+  padding: .2em .5em;
+  color: white;
+  border-radius: 4px;
+  transform: rotate(-15deg);
+}
+
+.new-banner a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.new-banner a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.new-banner strong {
+  font-size: 2em;
+}
