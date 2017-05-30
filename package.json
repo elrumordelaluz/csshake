@@ -2,7 +2,7 @@
   "name": "csshake",
   "version": "1.5.1",
   "description": "Some CSS classes to move your DOM!",
-  "main": "index.js",
+  "main": "dist/csshake.css",
   "scripts": {
     "start": "npm run build && npm run gzip && npm run gzip:all",
     "watch": "node-sass --watch scss/ -o dist/",

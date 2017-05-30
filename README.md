@@ -39,9 +39,9 @@ Now is also available in `cdnjs` for each shake animation: https://cdnjs.com/lib
 
 
 ### How to use
-First include the CSS file 
+First include the CSS file
 ```html
-  <link rel="stylesheet" type="text/css" href="csshake.css">` 
+  <link rel="stylesheet" type="text/css" href="csshake.css">`
 ```
 
 Then call the diffetent classes on the element you want to shake!
@@ -73,15 +73,15 @@ Editing the `do-shake` mixin in `scss/_tools.scss` file
 ```scss
 .my-custom-shake {
   @include do-shake(
-        $name: 'my-custom-shake', 
-        $h: 5px, 
-        $v: 5px, 
-        $r: 3deg, 
-        $dur: 100ms, 
-        $precision: .02, 
-        $opacity: false, 
-        $q: infinite, 
-        $t: ease-in-out, 
+        $name: 'my-custom-shake',
+        $h: 5px,
+        $v: 5px,
+        $r: 3deg,
+        $dur: 100ms,
+        $precision: .02,
+        $opacity: false,
+        $q: infinite,
+        $t: ease-in-out,
         $delay: null,
         $chunk: 100%);
 }
@@ -108,6 +108,19 @@ Editing the `do-shake` mixin in `scss/_tools.scss` file
 `$delay` {Number} `animation-delay` time value
 
 `$chunk` {Number} is the part of the keyframes where apply the animation
+
+### Use with Webpack 2.x
+When installed with `npm`, import `csshake` inside your css|stylus|sass files with `~` prefix to trigger webpack's module resolving:
+```scss
+@import '~csshake';
+```
+This will get you non-minified plain css.
+
+##### Import source sass files
+Include full path relative to your `node_modules` folder with csshake installation
+```scss
+@import '~csshake/scss/csshake-hard.scss';
+```
 
 =======
 
