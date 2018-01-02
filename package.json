@@ -1,19 +1,17 @@
 {
   "name": "csshake",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Some CSS classes to move your DOM!",
   "main": "dist/csshake.css",
   "scripts": {
     "start": "npm run build && npm run gzip && npm run gzip:all",
     "watch": "node-sass --watch scss/csshake.scss -o docs",
-    "build": "npm run build:raw && npm run build:min && npm run build:docs",
+    "build": "npm run build:raw && npm run build:min && npm run build:docs && node downloadIndex.js",
     "build:docs": "node-sass scss/csshake.scss -o docs --output-style compressed",
     "build:raw": "node-sass scss/ -o dist/",
     "build:min": "mkdir -p dist/min && node-sass --output-style compressed scss/ -o dist/min && npm run suffix && npm run move",
     "suffix": "for file in dist/min/*.css; do mv \"$file\" \"${file%.css}.min.css\"; done",
-    "move": "mv dist/min/*.css dist && rm -r dist/min",
-    "gzip:all": "for file in dist/*.css; do echo \"$file\"; gzip-size \"$file\" | pretty-bytes; done",
-    "gzip": "gzip-size dist/csshake.min.css | pretty-bytes"
+    "move": "mv dist/min/*.css dist && rm -r dist/min"
   },
   "repository": {
     "type": "git",
@@ -31,8 +29,9 @@
   },
   "homepage": "https://github.com/elrumordelaluz/csshake",
   "devDependencies": {
-    "gzip-size-cli": "^1.0.0",
+    "gzip-size": "4.1.0",
     "node-sass": "4.7.2",
-    "pretty-bytes": "^2.0.1"
+    "pretty-bytes": "4.0.2",
+    "pug": "2.0.0-rc.4"
   }
 }

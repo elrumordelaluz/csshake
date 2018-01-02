@@ -1,0 +1,109 @@
+doctype html
+html(lang="en")
+  head
+    title CSS Shake :: Download center
+    link(href="https://fonts.googleapis.com/css?family=Dancing+Script", rel="stylesheet", type="text/css")
+    link(href="https://fonts.googleapis.com/css?family=Open+Sans:400,300", rel="stylesheet", type="text/css")
+    link(href="csshake.min.css", rel="stylesheet", type="text/css")
+    style(type="text/css").
+      body { 
+        background-color: #2ab8ac; 
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-align: center;
+      }
+      h1,
+      h3 {
+        font-family: 'Dancing Script', cursive;
+        font-weight: 100;
+      }
+      h1 { font-size: 4em }
+      h3 { font-size: 2em }
+      a { color: inherit; }
+      .main-title:after {
+          content: attr(title);
+          position: absolute;
+          font-size: .25em;
+          margin-left: -1em;
+          color: rgba(255, 255, 255, 0.7);
+      }
+      .btn {
+        display: inline-block;
+        background-color: transparent;
+        border: 1px solid;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 1;
+        margin: .5em;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: .3s;
+        padding: 1.3em;
+        position: relative;
+      }
+      .btn:hover {
+        background-color: white;
+        border-color: white;
+        color: #2ab8ac;
+      }
+      .btn:after {
+        bottom: .5em;
+        content: attr(href);
+        font-size: 70%;
+        left: 50%;
+        position: absolute;
+        text-transform: none;
+        transform: translateX(-50%);
+      }
+      h1 small {
+        font-size: 25%;
+        font-family: 'Open Sans', sans-serif;
+      }
+      footer { margin-top: 2rem }
+      footer p { font-size: 85% }
+      footer a { text-decoration: none }
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-48410558-2', 'auto');
+      ga('send', 'pageview');
+  body
+    h1.main-title(title=`v${version}`) CSShake
+    h3.shake-slow.shake-constant.shake-constant--hover Download center
+    br
+    - const isMainFile = filename => filename === 'csshake.css' || filename === 'csshake.min.css'
+    - const isMinified = val => val.indexOf('.min') !== -1
+    - const getCls = val => val.replace(/(^cs|\.css|\.min|-default)/gi, '')
+    each val in sizes
+      if isMainFile(val[0])
+        - const cls = getCls(val[0])
+        - const isMin = isMinified(val[0])
+        a.btn.shake(
+          onclick=`ga('send', 'event', 'download', ${cls}, ${isMin ? 'minified' : 'expanded'})`, 
+          href=val[0]
+        ) cs#{cls} #{isMin ? 'minified' : ''} Pack (#{val[1]})
+        br
+    br
+    - let current = ''
+    each val in sizes
+      if !isMainFile(val[0])
+        - const cls = getCls(val[0])
+        a.btn(
+          class=cls, 
+          onclick=`ga('send', 'event', 'download', ${cls}, ${isMinified(val[0]) ? 'minified' : 'expanded'})`, 
+          href=val[0]
+        ) #{val[0].replace('-', ' ')} (#{val[1]})
+        if current === cls
+          br
+        - current = cls
+    footer
+      p Made with <3 by 
+        a(href="https://twitter.com/elrumordelaluz") @elrumordelaluz
+        | | 
+        a(href="http://elrumordelaluz.github.io/csshake/") Demo 
+        | | 
+        a(href="https://github.com/elrumordelaluz/csshake") Repository
