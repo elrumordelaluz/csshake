@@ -5,8 +5,9 @@
   "main": "dist/csshake.css",
   "scripts": {
     "start": "npm run build && npm run gzip && npm run gzip:all",
-    "watch": "node-sass --watch scss/ -o dist/",
-    "build": "npm run build:raw && npm run build:min",
+    "watch": "node-sass --watch scss/csshake.scss -o docs",
+    "build": "npm run build:raw && npm run build:min && npm run build:docs",
+    "build:docs": "node-sass scss/csshake.scss -o docs --output-style compressed",
     "build:raw": "node-sass scss/ -o dist/",
     "build:min": "mkdir -p dist/min && node-sass --output-style compressed scss/ -o dist/min && npm run suffix && npm run move",
     "suffix": "for file in dist/min/*.css; do mv \"$file\" \"${file%.css}.min.css\"; done",
