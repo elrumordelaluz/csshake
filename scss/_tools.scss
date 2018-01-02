@@ -4,7 +4,7 @@ $trigger: 'shake-trigger' !default;
 
 // Placeholders
 %shake {
-  display: inline-block;
+  display: inherit;
   transform-origin: center center;
 }
 
