@@ -4,7 +4,7 @@
   "description": "Some CSS classes to move your DOM!",
   "main": "dist/csshake.css",
   "scripts": {
-    "start": "npm run build && npm run gzip && npm run gzip:all",
+    "start": "npm run build",
     "watch": "node-sass --watch scss/csshake.scss -o docs",
     "build": "npm run build:raw && npm run build:min && npm run build:docs && node downloadIndex.js",
     "build:docs": "node-sass scss/csshake.scss -o docs --output-style compressed",
@@ -30,8 +30,8 @@
   "homepage": "https://github.com/elrumordelaluz/csshake",
   "devDependencies": {
     "gzip-size": "4.1.0",
-    "node-sass": "4.7.2",
+    "node-sass": "4.9.0",
     "pretty-bytes": "4.0.2",
-    "pug": "2.0.0-rc.4"
+    "pug": "2.0.3"
   }
 }
