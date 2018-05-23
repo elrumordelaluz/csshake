@@ -11,57 +11,132 @@
 	<link rel="stylesheet" type="text/css" href="demo.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.9.0/themes/prism-okaidia.min.css">
 	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	;(function(i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r
+  ;(i[r] =
+    i[r] ||
+    function() {
+      ;(i[r].q = i[r].q || []).push(arguments)
+    }),
+    (i[r].l = 1 * new Date())
+  ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+  a.async = 1
+  a.src = g
+  m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga')
 
-	  ga('create', 'UA-48410558-1', 'elrumordelaluz.github.io');
-	  ga('send', 'pageview');
-
-	</script>
+ga('create', 'UA-48410558-1', 'elrumordelaluz.github.io')
+ga('send', 'pageview')
+</script>
 	<style type="text/css">
-		#carbonads { 
-		    text-align: center;
-		    width: 178px;
-		    height: auto;
-		    position: relative;
-		    background: rgba(255,255,255,0.8);
-		    border: 1px solid rgba(0,0,0,0.05);
-		    z-index: 1000000;
-		    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-		    padding: 24px 24px 10px 24px;
-		    font-size: 12px;
-		    font-weight: 700;
-		    margin: 0 auto;
+		#carbonads {
+		  --width: 180px;
+		  --font-size: 14px;
 		}
 
+		#carbonads {
+		  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		  display: block;
+		  overflow: hidden;
+		  margin-bottom: 20px;
+		  max-width: var(--width);
+		  border-radius: 4px;
+		  text-align: center;
+		  box-shadow: 0 0 0 1px hsla(0, 0%, 0%, .1);
+		  background-color: hsl(0, 0%, 98%);
+		  font-size: var(--font-size);
+		  line-height: 1.5;
+			color: #4f5152;
+		}
+
+		#carbonads a {
+		  color: inherit;
+		  text-decoration: none;
+		}
+
+		#carbonads a:hover {
+		  color: inherit;
+		}
+
+		#carbonads span {
+		  position: relative;
+		  display: block;
+		  overflow: hidden;
+		}
+
+		.carbon-img {
+		  display: block;
+		  margin-bottom: 8px;
+		  max-width: var(--width);
+		  line-height: 1;
+		}
+
+		.carbon-img img {
+		  display: block;
+		  margin: 0 auto;
+		  max-width: var(--width) !important;
+		  width: var(--width);
+		  height: auto;
+		}
+
+		.carbon-text {
+		  display: block;
+		  padding: 0 1em 8px;
+			color: #4f5152;
+		}
+
+		.carbon-poweredby {
+		  display: block;
+		  padding: 10px var(--font-size);
+		  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
+		  text-transform: uppercase;
+		  letter-spacing: .5px;
+		  font-weight: 600;
+		  font-size: 9px;
+		  line-height: 0;
+		}
+
+		@media only screen and (max-width: 40em) {
+		  #carbonads {
+		    float: none;
+		    margin: 0 auto;
+		    max-width: 330px;
+		  }
+		  #carbonads span {
+		    position: relative;
+		  }
+		  #carbonads > span {
+		    max-width: none;
+		  }
+		  .carbon-img {
+		    float: left;
+		    margin: 0;
+		  }
+
+		  .carbon-img img {
+		    max-width: 130px !important;
+		  }
+		  .carbon-text {
+		    float: left;
+		    margin-bottom: 0;
+		    padding: 8px 20px;
+		    text-align: left;
+		    max-width: calc(100% - 130px - 3em);
+		  }
+		  .carbon-poweredby {
+		    left: 130px;
+		    bottom: 0;
+		    display: block;
+		    width: 100%;
+		  }
+		}
+		
 		@media (min-width: 40em) {
 			#carbonads {
 				position: fixed;
 				right: 35px;
-		    top: 35px;
+				top: 35px;
 			}
-		}
-		
-		.carbon-text { 
-		    display: block; 
-		    width: 130px;
-		    color: #4f5152;
-		    padding: 10px 0 15px 0;
-		    display: block;
-		    line-height: 1.2;
-		    text-decoration: none;
-		}
-		
-		.carbon-poweredby {
-			display: block;
-			text-transform: uppercase;
-			font-size: 65%;
-			letter-spacing: 1px;
-			color: #cc301e;
-			font-weight: 700;
-			text-decoration: none;
 		}
 	</style>
 </head>
@@ -87,7 +162,7 @@
 			<h1 title="v1.5.3">CS<span class="shake-constant shake-delay">Shake</span></h1>
 			<h4>Some CSS classes to <span class="shake-little">move your DOM!</span></h4>
 			<div class="arrow shake-vertical-slow shake-constant"></div>
-			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=elrumordelaluzgithubiocsshake" id="_carbonads_js"></script>
+			<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYIK27N&placement=elrumordelaluzgithubiocsshake" id="_carbonads_js"></script>
 		</section>
 		<section class="section carrot">
 			<a href="#classes">
@@ -342,20 +417,20 @@
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.9.0/prism.min.js"></script>
 	<script async defer>
-    var selector = document.querySelector('#shake-type');
-    var pr1 = document.querySelector('#pr1');
-    var pr2 = document.querySelector('#pr2');
+ var selector = document.querySelector('#shake-type')
+var pr1 = document.querySelector('#pr1')
+var pr2 = document.querySelector('#pr2')
 
-    var handleChangeShake = function handleChangeShake(e) {
-      var regex = /shake-(hard|slow|little|horizontal|vertical|rotate|opacity|crazy)/;
-      var classToRemove = regex.exec(pr1.classList.value)[0].trim();
-      pr1.classList.remove(classToRemove);
-      pr1.classList.add(e.target.value);
-      pr2.classList.remove(classToRemove);
-      pr2.classList.add(e.target.value);
-    };
+var handleChangeShake = function handleChangeShake(e) {
+  var regex = /shake-(hard|slow|little|horizontal|vertical|rotate|opacity|crazy)/
+  var classToRemove = regex.exec(pr1.classList.value)[0].trim()
+  pr1.classList.remove(classToRemove)
+  pr1.classList.add(e.target.value)
+  pr2.classList.remove(classToRemove)
+  pr2.classList.add(e.target.value)
+}
 
-    selector.addEventListener('change', handleChangeShake);
-  </script>
+selector.addEventListener('change', handleChangeShake)
+</script>
 </body>
 </html>
