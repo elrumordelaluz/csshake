@@ -29,9 +29,9 @@
   },
   "homepage": "https://github.com/elrumordelaluz/csshake",
   "devDependencies": {
-    "gzip-size": "4.1.0",
-    "node-sass": "4.9.0",
-    "pretty-bytes": "4.0.2",
+    "gzip-size": "5.0.0",
+    "node-sass": "4.10.0",
+    "pretty-bytes": "5.1.0",
     "pug": "2.0.3"
   }
 }
