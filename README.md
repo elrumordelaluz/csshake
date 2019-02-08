@@ -1,63 +1,76 @@
-# Csshake [![npm version](https://badge.fury.io/js/csshake.svg)](http://badge.fury.io/js/csshake)
-Some CSS classes to move your DOM!
-[Live Demo](http://elrumordelaluz.github.io/csshake/)
+# CSShake [![npm version](https://badge.fury.io/js/csshake.svg)](http://badge.fury.io/js/csshake)
 
-### Origins
+> Some CSS classes to move your DOM!
+
+### [Live Demo](http://elrumordelaluz.github.io/csshake/)
+
+### [Download Center](https://csshake.surge.sh/)
+
+You could download the complete `csshake.css` file or separated files for each shake animation (i.e `csshake-little.css`).
+Each one expanded or minified.
+
+## Why
+
 I had to do a 'shake-animation' for a big project. First, I did it in vanilla CSS.
 After finish it I discover [this](http://jackrugile.com/jrumble/) cool jQuery plugin by [@jackrugile](https://twitter.com/jackrugile).
-Then I started to think in made *[this little CSS project](http://elrumordelaluz.github.io/csshake/)*
+Then I started to think in made _[this little CSS project](http://elrumordelaluz.github.io/csshake/)_
 
-### Install
+## Install
+
 Fork this repo
+
 ```
   $ git clone https://github.com/elrumordelaluz/csshake.git
 ```
 
 or via Bower
+
 ```
   $ bower install csshake
 ```
 
 or via npm
+
 ```
   $ npm i csshake
 ```
 
 #### scripts
+
 ```
   $ npm run watch
   $ npm run build:raw
   $ npm run build:min
 ```
 
-#### Download Center http://csshake.surge.sh/
-You could download the complete `csshake.css` file or separated files for each shake animation (i.e `csshake-little.css`).
-Each one expanded or minified.
-
 ### CDN
+
 Now is also available in `cdnjs` for each shake animation: https://cdnjs.com/libraries/csshake
 
+## How to use
 
-### How to use
 First include the CSS file
+
 ```html
-  <link rel="stylesheet" type="text/css" href="csshake.css">`
+<link rel="stylesheet" type="text/css" href="csshake.css" />`
 ```
 
 Then call the diffetent classes on the element you want to shake!
+
 ```html
-  <div class="shake"></div>
-  <div class="shake shake-hard"></div>
-  <div class="shake shake-slow"></div>
-  <div class="shake shake-little"></div>
-  <div class="shake shake-horizontal"></div>
-  <div class="shake shake-vertical"></div>
-  <div class="shake shake-rotate"></div>
-  <div class="shake shake-opacity"></div>
-  <div class="shake shake-crazy"></div>
+<div class="shake"></div>
+<div class="shake shake-hard"></div>
+<div class="shake shake-slow"></div>
+<div class="shake shake-little"></div>
+<div class="shake shake-horizontal"></div>
+<div class="shake shake-vertical"></div>
+<div class="shake shake-rotate"></div>
+<div class="shake shake-opacity"></div>
+<div class="shake shake-crazy"></div>
 ```
 
 Add also classes to control the `animation-play-state`.
+
 ```html
 <!-- Freeze the animation at that point when :hover -->
 <div class="shake shake-freeze"></div>
@@ -67,23 +80,26 @@ Add also classes to control the `animation-play-state`.
 <div class="shake shake-constant shake-constant--hover"></div>
 ```
 
-### Customize
+## Customize
+
 You could customize the Sass @mixins to create new shaking animations, yeah!
 Editing the `do-shake` mixin in `scss/_tools.scss` file
+
 ```scss
 .my-custom-shake {
   @include do-shake(
-        $name: 'my-custom-shake',
-        $h: 5px,
-        $v: 5px,
-        $r: 3deg,
-        $dur: 100ms,
-        $precision: .02,
-        $opacity: false,
-        $q: infinite,
-        $t: ease-in-out,
-        $delay: null,
-        $chunk: 100%);
+    $name: 'my-custom-shake',
+    $h: 5px,
+    $v: 5px,
+    $r: 3deg,
+    $dur: 100ms,
+    $precision: 0.02,
+    $opacity: false,
+    $q: infinite,
+    $t: ease-in-out,
+    $delay: null,
+    $chunk: 100%
+  );
 }
 ```
 
@@ -110,14 +126,19 @@ Editing the `do-shake` mixin in `scss/_tools.scss` file
 `$chunk` {Number} is the part of the keyframes where apply the animation
 
 ### Use with Webpack 2.x
+
 When installed with `npm`, import `csshake` inside your css|stylus|sass files with `~` prefix to trigger webpack's module resolving:
+
 ```scss
 @import '~csshake';
 ```
+
 This will get you non-minified plain css.
 
 ##### Import source sass files
+
 Include full path relative to your `node_modules` folder with csshake installation
+
 ```scss
 @import '~csshake/scss/csshake-hard.scss';
 ```
@@ -125,7 +146,9 @@ Include full path relative to your `node_modules` folder with csshake installati
 =======
 
 ### Changelog
+
 #### [v1.5.0](https://github.com/elrumordelaluz/csshake/releases/tag/v1.5) (October 5, 2015)
+
 - Improve the core mixin for a better output code
 - Generate the entire 'shake' animation from only one [@mixin](https://github.com/elrumordelaluz/csshake/blob/master/scss/_tools.scss#L30). Easier to cerate custom shakes animations classes.
 - Add a [new argument](https://github.com/elrumordelaluz/csshake/blob/master/scss/_tools.scss#L41) to allow animate only part of the 100% of keyframes. Solves [issue #25](https://github.com/elrumordelaluz/csshake/issues/25)
