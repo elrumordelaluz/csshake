@@ -22,32 +22,32 @@
 
 @keyframes shake-crazy {
   10% {
-    transform: translate(4px, 8px) rotate(1deg);
-    opacity: 0.92; }
+    transform: translate(10px, 3px) rotate(-7deg);
+    opacity: 0.29; }
   20% {
-    transform: translate(5px, -11px) rotate(5deg);
-    opacity: 0.74; }
+    transform: translate(-8px, -8px) rotate(5deg);
+    opacity: 0.31; }
   30% {
-    transform: translate(-16px, -9px) rotate(-7deg);
-    opacity: 0.72; }
+    transform: translate(4px, -10px) rotate(9deg);
+    opacity: 0.91; }
   40% {
-    transform: translate(-8px, 10px) rotate(9deg);
-    opacity: 0.86; }
+    transform: translate(1px, -2px) rotate(-1deg);
+    opacity: 0.83; }
   50% {
-    transform: translate(0px, -7px) rotate(-3deg);
-    opacity: 0.16; }
+    transform: translate(19px, -6px) rotate(-1deg);
+    opacity: 0.58; }
   60% {
-    transform: translate(9px, -9px) rotate(-7deg);
-    opacity: 0.05; }
+    transform: translate(-10px, 20px) rotate(-8deg);
+    opacity: 0.64; }
   70% {
-    transform: translate(-18px, -9px) rotate(-3deg);
-    opacity: 0.9; }
+    transform: translate(-11px, -18px) rotate(5deg);
+    opacity: 0.06; }
   80% {
-    transform: translate(-13px, 13px) rotate(-5deg);
-    opacity: 0.71; }
+    transform: translate(14px, 7px) rotate(9deg);
+    opacity: 0.89; }
   90% {
-    transform: translate(-1px, 15px) rotate(5deg);
-    opacity: 0.26; }
+    transform: translate(-3px, 9px) rotate(-9deg);
+    opacity: 0.01; }
   0%, 100% {
     transform: translate(0, 0) rotate(0); } }
 
