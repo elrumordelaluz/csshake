@@ -29,8 +29,8 @@ $trigger: 'shake-trigger' !default;
 /// @param {Number}  $chunk [100%]                - Part of 100% where apply the animation
 @mixin do-shake(
   $name: 'shake', 
-  $h: 5px, 
-  $v: 5px, 
+  $h: 10px, 
+  $v: 10px, 
   $r: 3deg, 
   $dur: 100ms, 
   $precision: .02, 
