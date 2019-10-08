@@ -8,4 +8,4 @@
 \* * * * * * * * * * * * * * * * * * * * */
 @import 'tools';
 
-.shake-vertical { @include do-shake('shake-vertical', 0, 20, 0); }
+.shake-vertical { @include do-shake('shake-vertical', 0, 10, 0); }
