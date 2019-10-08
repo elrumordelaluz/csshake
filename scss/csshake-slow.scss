@@ -8,4 +8,4 @@
 \* * * * * * * * * * * * * * * * * * * * */
 @import 'tools';
 
-.shake-slow { @include do-shake('shake-slow', 20, 20, 7, 5s); }
+.shake-slow { @include do-shake('shake-slow', 10, 10, 10, 5s); }
