@@ -30,7 +30,7 @@
   "homepage": "https://github.com/elrumordelaluz/csshake",
   "devDependencies": {
     "gzip-size": "5.1.1",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.1",
     "pretty-bytes": "5.2.0",
     "pug": "2.0.3"
   }
