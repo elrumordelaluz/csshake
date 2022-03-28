@@ -1,3 +1,5 @@
+@use "sass:math";
+
 // Variables
 $prefix: 'shake' !default;
 $trigger: 'shake-trigger' !default;
@@ -12,7 +14,7 @@ $trigger: 'shake-trigger' !default;
 %running  { animation-play-state: running; }
 
 @function apply-random($input) {
-  @return if($input != 0, random($input) - $input/2, 0);
+  @return if($input != 0, random($input) - math.div($input, 2), 0);
 }
 
 /// Do The Shake
