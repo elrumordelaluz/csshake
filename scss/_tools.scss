@@ -12,7 +12,7 @@ $trigger: 'shake-trigger' !default;
 %running  { animation-play-state: running; }
 
 @function apply-random($input) {
-  @return if($input != 0, random($input) - $input/2, 0);
+  @return if($input != 0, random($input) - $input*0.5, 0);
 }
 
 /// Do The Shake
@@ -62,7 +62,7 @@ $trigger: 'shake-trigger' !default;
         
         #{$step} {
           transform: translate($move-x, $move-y) rotate($rotate);
-          @if $opacity { opacity: random(100) / 100; }
+          @if $opacity { opacity: random(100) * 0.01; }
         }
         
         $step: $step + $interval;
