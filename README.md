@@ -55,7 +55,7 @@ First include the CSS file
 <link rel="stylesheet" type="text/css" href="csshake.css" />`
 ```
 
-Then call the diffetent classes on the element you want to shake!
+Then call the different classes on the element you want to shake!
 
 ```html
 <div class="shake"></div>
