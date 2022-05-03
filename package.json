@@ -1,6 +1,6 @@
 {
   "name": "csshake",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Some CSS classes to move your DOM!",
   "main": "dist/csshake.css",
   "scripts": {
