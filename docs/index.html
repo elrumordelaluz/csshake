@@ -26,28 +26,28 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.9.0/themes/prism-okaidia.min.css"
     />
     <script>
-      ;(function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r
-        ;(i[r] =
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
           i[r] ||
-          function() {
-            ;(i[r].q = i[r].q || []).push(arguments)
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
           }),
-          (i[r].l = 1 * new Date())
-        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
-        a.async = 1
-        a.src = g
-        m.parentNode.insertBefore(a, m)
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
       })(
         window,
         document,
-        'script',
-        '//www.google-analytics.com/analytics.js',
-        'ga'
-      )
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-      ga('create', 'UA-48410558-1', 'elrumordelaluz.github.io')
-      ga('send', 'pageview')
+      ga("create", "UA-48410558-1", "elrumordelaluz.github.io");
+      ga("send", "pageview");
     </script>
     <style type="text/css">
       #carbonads {
@@ -56,8 +56,8 @@
       }
 
       #carbonads {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-          Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial,
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
           sans-serif;
         display: block;
         overflow: hidden;
@@ -192,7 +192,7 @@
           <i class="bubble small"></i>
           <span class="straw"></span>
         </div>
-        <h1 title="v1.5.3">
+        <h1 title="v1.7.0">
           CS<span class="shake-constant shake-delay">Shake</span>
         </h1>
         <h4>
@@ -354,7 +354,7 @@
           or <br />
           <a
             href="https://csshake.surge.sh/"
-            class="btn  shake-vertical-slow shake-constant"
+            class="btn shake-vertical-slow shake-constant"
             >Download Center</a
           >
           <br />Download separated files for each shake animation, expanded or
@@ -539,17 +539,17 @@
             >Tweet</a
           >
           <script>
-            !(function(d, s, id) {
+            !(function (d, s, id) {
               var js,
                 fjs = d.getElementsByTagName(s)[0],
-                p = /^http:/.test(d.location) ? 'http' : 'https'
+                p = /^http:/.test(d.location) ? "http" : "https";
               if (!d.getElementById(id)) {
-                js = d.createElement(s)
-                js.id = id
-                js.src = p + '://platform.twitter.com/widgets.js'
-                fjs.parentNode.insertBefore(js, fjs)
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + "://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
               }
-            })(document, 'script', 'twitter-wjs')
+            })(document, "script", "twitter-wjs");
           </script>
           <iframe
             src="https://ghbtns.com/github-btn.html?user=elrumordelaluz&amp;repo=csshake&amp;type=star&amp;count=true"
@@ -577,20 +577,21 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.9.0/prism.min.js"
     ></script>
     <script async defer>
-      var selector = document.querySelector('#shake-type')
-      var pr1 = document.querySelector('#pr1')
-      var pr2 = document.querySelector('#pr2')
+      var selector = document.querySelector("#shake-type");
+      var pr1 = document.querySelector("#pr1");
+      var pr2 = document.querySelector("#pr2");
 
       var handleChangeShake = function handleChangeShake(e) {
-        var regex = /shake-(hard|slow|little|horizontal|vertical|rotate|opacity|crazy)/
-        var classToRemove = regex.exec(pr1.classList.value)[0].trim()
-        pr1.classList.remove(classToRemove)
-        pr1.classList.add(e.target.value)
-        pr2.classList.remove(classToRemove)
-        pr2.classList.add(e.target.value)
-      }
+        var regex =
+          /shake-(hard|slow|little|horizontal|vertical|rotate|opacity|crazy)/;
+        var classToRemove = regex.exec(pr1.classList.value)[0].trim();
+        pr1.classList.remove(classToRemove);
+        pr1.classList.add(e.target.value);
+        pr2.classList.remove(classToRemove);
+        pr2.classList.add(e.target.value);
+      };
 
-      selector.addEventListener('change', handleChangeShake)
+      selector.addEventListener("change", handleChangeShake);
     </script>
   </body>
 </html>
