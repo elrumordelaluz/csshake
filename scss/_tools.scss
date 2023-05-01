@@ -11,8 +11,8 @@ $trigger: 'shake-trigger' !default;
 %paused   { animation-play-state: paused; }
 %running  { animation-play-state: running; }
 
-@function apply-random($input) {
-  @return if($input != 0, random($input) - $input*0.5, 0);
+@function apply-random($input, $unit) {
+  @return if($input != 0, random(calc($input / $unit)) - $input*0.5, 0);
 }
 
 /// Do The Shake
@@ -56,10 +56,10 @@ $trigger: 'shake-trigger' !default;
       $step: $interval * 1%;
 
       @while $step < $chunk {
-        $rotate: apply-random($r);
-        $move-x: apply-random($h);
-        $move-y: apply-random($v);
-        
+        $rotate: apply-random($r, 1deg);
+        $move-x: apply-random($h, 1px);
+        $move-y: apply-random($v, 1px);
+
         #{$step} {
           transform: translate($move-x, $move-y) rotate($rotate);
           @if $opacity { opacity: random(100) * 0.01; }
